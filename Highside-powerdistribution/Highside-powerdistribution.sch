@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Highside-powerdistribution-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay:DIPxx-1Axx-11x K?
+L Relay:DIPxx-1Axx-11x K1
 U 1 1 5DCEDB2E
 P 2000 1400
-F 0 "K?" V 2467 1400 50  0000 C CNN
+F 0 "K1" V 2467 1400 50  0000 C CNN
 F 1 "DIPxx-1Axx-11x" V 2376 1400 50  0000 C CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 2350 1350 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 2000 1400 50  0001 C CNN
@@ -25,10 +26,10 @@ F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5DCFB913
 P 2400 1700
-F 0 "#PWR?" H 2400 1450 50  0001 C CNN
+F 0 "#PWR0101" H 2400 1450 50  0001 C CNN
 F 1 "GND" H 2405 1527 50  0000 C CNN
 F 2 "" H 2400 1700 50  0001 C CNN
 F 3 "" H 2400 1700 50  0001 C CNN
@@ -36,10 +37,10 @@ F 3 "" H 2400 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0102
 U 1 1 5DCFD0B3
 P 1600 1100
-F 0 "#PWR?" H 1600 950 50  0001 C CNN
+F 0 "#PWR0102" H 1600 950 50  0001 C CNN
 F 1 "+12V" H 1615 1273 50  0000 C CNN
 F 2 "" H 1600 1100 50  0001 C CNN
 F 3 "" H 1600 1100 50  0001 C CNN
@@ -55,12 +56,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 1200 1600 1100
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J1
 U 1 1 5DD00B31
 P 1000 1600
-F 0 "J?" H 918 1275 50  0000 C CNN
+F 0 "J1" H 918 1275 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 918 1366 50  0000 C CNN
-F 2 "" H 1000 1600 50  0001 C CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 1000 1600 50  0001 C CNN
 F 3 "~" H 1000 1600 50  0001 C CNN
 	1    1000 1600
 	-1   0    0    1   
@@ -75,10 +76,10 @@ Wire Wire Line
 Text GLabel 2300 1200 2    50   Input ~ 0
 A
 $Comp
-L Relay:DIPxx-1Axx-11x K?
+L Relay:DIPxx-1Axx-11x K2
 U 1 1 5DD060C2
 P 2000 2500
-F 0 "K?" V 2467 2500 50  0000 C CNN
+F 0 "K2" V 2467 2500 50  0000 C CNN
 F 1 "DIPxx-1Axx-11x" V 2376 2500 50  0000 C CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 2350 2450 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 2000 2500 50  0001 C CNN
@@ -86,10 +87,10 @@ F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5DD060C8
 P 2400 2800
-F 0 "#PWR?" H 2400 2550 50  0001 C CNN
+F 0 "#PWR0103" H 2400 2550 50  0001 C CNN
 F 1 "GND" H 2405 2627 50  0000 C CNN
 F 2 "" H 2400 2800 50  0001 C CNN
 F 3 "" H 2400 2800 50  0001 C CNN
@@ -97,10 +98,10 @@ F 3 "" H 2400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0104
 U 1 1 5DD060CE
 P 1600 2200
-F 0 "#PWR?" H 1600 2050 50  0001 C CNN
+F 0 "#PWR0104" H 1600 2050 50  0001 C CNN
 F 1 "+12V" H 1615 2373 50  0000 C CNN
 F 2 "" H 1600 2200 50  0001 C CNN
 F 3 "" H 1600 2200 50  0001 C CNN
@@ -116,12 +117,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 2300 1600 2200
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J2
 U 1 1 5DD060D8
 P 1000 2700
-F 0 "J?" H 918 2375 50  0000 C CNN
+F 0 "J2" H 918 2375 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 918 2466 50  0000 C CNN
-F 2 "" H 1000 2700 50  0001 C CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 1000 2700 50  0001 C CNN
 F 3 "~" H 1000 2700 50  0001 C CNN
 	1    1000 2700
 	-1   0    0    1   
@@ -136,10 +137,10 @@ Wire Wire Line
 Text GLabel 2300 2300 2    50   Input ~ 0
 B
 $Comp
-L Relay:DIPxx-1Axx-11x K?
+L Relay:DIPxx-1Axx-11x K3
 U 1 1 5DD06E10
 P 2000 3600
-F 0 "K?" V 2467 3600 50  0000 C CNN
+F 0 "K3" V 2467 3600 50  0000 C CNN
 F 1 "DIPxx-1Axx-11x" V 2376 3600 50  0000 C CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 2350 3550 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 2000 3600 50  0001 C CNN
@@ -147,10 +148,10 @@ F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5DD06E16
 P 2400 3900
-F 0 "#PWR?" H 2400 3650 50  0001 C CNN
+F 0 "#PWR0105" H 2400 3650 50  0001 C CNN
 F 1 "GND" H 2405 3727 50  0000 C CNN
 F 2 "" H 2400 3900 50  0001 C CNN
 F 3 "" H 2400 3900 50  0001 C CNN
@@ -158,10 +159,10 @@ F 3 "" H 2400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0106
 U 1 1 5DD06E1C
 P 1600 3300
-F 0 "#PWR?" H 1600 3150 50  0001 C CNN
+F 0 "#PWR0106" H 1600 3150 50  0001 C CNN
 F 1 "+12V" H 1615 3473 50  0000 C CNN
 F 2 "" H 1600 3300 50  0001 C CNN
 F 3 "" H 1600 3300 50  0001 C CNN
@@ -177,12 +178,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 3400 1600 3300
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 5DD06E26
 P 1000 3800
-F 0 "J?" H 918 3475 50  0000 C CNN
+F 0 "J3" H 918 3475 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 918 3566 50  0000 C CNN
-F 2 "" H 1000 3800 50  0001 C CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 1000 3800 50  0001 C CNN
 F 3 "~" H 1000 3800 50  0001 C CNN
 	1    1000 3800
 	-1   0    0    1   
@@ -197,10 +198,10 @@ Wire Wire Line
 Text GLabel 2300 3400 2    50   Input ~ 0
 C
 $Comp
-L Relay:DIPxx-1Axx-11x K?
+L Relay:DIPxx-1Axx-11x K4
 U 1 1 5DD07C50
 P 2000 4700
-F 0 "K?" V 2467 4700 50  0000 C CNN
+F 0 "K4" V 2467 4700 50  0000 C CNN
 F 1 "DIPxx-1Axx-11x" V 2376 4700 50  0000 C CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 2350 4650 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 2000 4700 50  0001 C CNN
@@ -208,10 +209,10 @@ F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 5DD07C56
 P 2400 5000
-F 0 "#PWR?" H 2400 4750 50  0001 C CNN
+F 0 "#PWR0107" H 2400 4750 50  0001 C CNN
 F 1 "GND" H 2405 4827 50  0000 C CNN
 F 2 "" H 2400 5000 50  0001 C CNN
 F 3 "" H 2400 5000 50  0001 C CNN
@@ -219,10 +220,10 @@ F 3 "" H 2400 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0108
 U 1 1 5DD07C5C
 P 1600 4400
-F 0 "#PWR?" H 1600 4250 50  0001 C CNN
+F 0 "#PWR0108" H 1600 4250 50  0001 C CNN
 F 1 "+12V" H 1615 4573 50  0000 C CNN
 F 2 "" H 1600 4400 50  0001 C CNN
 F 3 "" H 1600 4400 50  0001 C CNN
@@ -238,12 +239,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 4500 1600 4400
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J4
 U 1 1 5DD07C66
 P 1000 4900
-F 0 "J?" H 918 4575 50  0000 C CNN
+F 0 "J4" H 918 4575 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 918 4666 50  0000 C CNN
-F 2 "" H 1000 4900 50  0001 C CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 1000 4900 50  0001 C CNN
 F 3 "~" H 1000 4900 50  0001 C CNN
 	1    1000 4900
 	-1   0    0    1   
@@ -258,10 +259,10 @@ Wire Wire Line
 Text GLabel 2300 4500 2    50   Input ~ 0
 D
 $Comp
-L Relay:DIPxx-1Axx-11x K?
+L Relay:DIPxx-1Axx-11x K5
 U 1 1 5DD08BE4
 P 2000 5800
-F 0 "K?" V 2467 5800 50  0000 C CNN
+F 0 "K5" V 2467 5800 50  0000 C CNN
 F 1 "DIPxx-1Axx-11x" V 2376 5800 50  0000 C CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 2350 5750 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 2000 5800 50  0001 C CNN
@@ -269,10 +270,10 @@ F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 5DD08BEA
 P 2400 6100
-F 0 "#PWR?" H 2400 5850 50  0001 C CNN
+F 0 "#PWR0109" H 2400 5850 50  0001 C CNN
 F 1 "GND" H 2405 5927 50  0000 C CNN
 F 2 "" H 2400 6100 50  0001 C CNN
 F 3 "" H 2400 6100 50  0001 C CNN
@@ -280,10 +281,10 @@ F 3 "" H 2400 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0110
 U 1 1 5DD08BF0
 P 1600 5500
-F 0 "#PWR?" H 1600 5350 50  0001 C CNN
+F 0 "#PWR0110" H 1600 5350 50  0001 C CNN
 F 1 "+12V" H 1615 5673 50  0000 C CNN
 F 2 "" H 1600 5500 50  0001 C CNN
 F 3 "" H 1600 5500 50  0001 C CNN
@@ -299,12 +300,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 5600 1600 5500
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J5
 U 1 1 5DD08BFA
 P 1000 6000
-F 0 "J?" H 918 5675 50  0000 C CNN
+F 0 "J5" H 918 5675 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 918 5766 50  0000 C CNN
-F 2 "" H 1000 6000 50  0001 C CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 1000 6000 50  0001 C CNN
 F 3 "~" H 1000 6000 50  0001 C CNN
 	1    1000 6000
 	-1   0    0    1   
@@ -319,10 +320,10 @@ Wire Wire Line
 Text GLabel 2300 5600 2    50   Input ~ 0
 E
 $Comp
-L Relay:DIPxx-1Axx-11x K?
+L Relay:DIPxx-1Axx-11x K6
 U 1 1 5DD09D2E
 P 2000 6900
-F 0 "K?" V 2467 6900 50  0000 C CNN
+F 0 "K6" V 2467 6900 50  0000 C CNN
 F 1 "DIPxx-1Axx-11x" V 2376 6900 50  0000 C CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 2350 6850 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 2000 6900 50  0001 C CNN
@@ -330,10 +331,10 @@ F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5DD09D34
 P 2400 7200
-F 0 "#PWR?" H 2400 6950 50  0001 C CNN
+F 0 "#PWR0111" H 2400 6950 50  0001 C CNN
 F 1 "GND" H 2405 7027 50  0000 C CNN
 F 2 "" H 2400 7200 50  0001 C CNN
 F 3 "" H 2400 7200 50  0001 C CNN
@@ -341,10 +342,10 @@ F 3 "" H 2400 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0112
 U 1 1 5DD09D3A
 P 1600 6600
-F 0 "#PWR?" H 1600 6450 50  0001 C CNN
+F 0 "#PWR0112" H 1600 6450 50  0001 C CNN
 F 1 "+12V" H 1615 6773 50  0000 C CNN
 F 2 "" H 1600 6600 50  0001 C CNN
 F 3 "" H 1600 6600 50  0001 C CNN
@@ -360,12 +361,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 6700 1600 6600
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J6
 U 1 1 5DD09D44
 P 1000 7100
-F 0 "J?" H 918 6775 50  0000 C CNN
+F 0 "J6" H 918 6775 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 918 6866 50  0000 C CNN
-F 2 "" H 1000 7100 50  0001 C CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 1000 7100 50  0001 C CNN
 F 3 "~" H 1000 7100 50  0001 C CNN
 	1    1000 7100
 	-1   0    0    1   
@@ -378,36 +379,646 @@ Wire Wire Line
 Wire Wire Line
 	1200 7100 1700 7100
 Text GLabel 2300 6700 2    50   Input ~ 0
-A
+F
 $Comp
-L Connector:Screw_Terminal_01x06 J?
+L Connector:Screw_Terminal_01x06 J7
 U 1 1 5DD0D41A
-P 3300 4600
-F 0 "J?" H 3380 4592 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" H 3380 4501 50  0000 L CNN
-F 2 "" H 3300 4600 50  0001 C CNN
-F 3 "~" H 3300 4600 50  0001 C CNN
-	1    3300 4600
+P 3000 4600
+F 0 "J7" H 3080 4592 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 3080 4501 50  0000 L CNN
+F 2 "" H 3000 4600 50  0001 C CNN
+F 3 "~" H 3000 4600 50  0001 C CNN
+	1    3000 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 4400 0    50   Input ~ 0
+Text GLabel 2800 4400 0    50   Input ~ 0
 A
-Text GLabel 3100 4500 0    50   Input ~ 0
+Text GLabel 2800 4500 0    50   Input ~ 0
 B
-Text GLabel 3100 4600 0    50   Input ~ 0
+Text GLabel 2800 4600 0    50   Input ~ 0
 C
-Text GLabel 3100 4700 0    50   Input ~ 0
+Text GLabel 2800 4700 0    50   Input ~ 0
 D
-Text GLabel 3100 4800 0    50   Input ~ 0
+Text GLabel 2800 4800 0    50   Input ~ 0
 E
-Text GLabel 3100 4900 0    50   Input ~ 0
+Text GLabel 2800 4900 0    50   Input ~ 0
 F
 Wire Notes Line
-	600  800  4400 800 
-Wire Notes Line
-	4400 800  4400 7600
-Wire Notes Line
-	4400 7600 600  7600
+	4000 800  4000 7600
 Wire Notes Line
 	600  7600 600  800 
+$Comp
+L power:+12V #PWR0113
+U 1 1 5DD16011
+P 4700 1100
+F 0 "#PWR0113" H 4700 950 50  0001 C CNN
+F 1 "+12V" H 4715 1273 50  0000 C CNN
+F 2 "" H 4700 1100 50  0001 C CNN
+F 3 "" H 4700 1100 50  0001 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1100 4700 1200
+Text GLabel 4700 1700 0    50   Input ~ 0
+SSR-A
+$Comp
+L Device:R R1
+U 1 1 5DD1ADD9
+P 5250 1200
+F 0 "R1" V 5043 1200 50  0000 C CNN
+F 1 "R" V 5134 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 1200 50  0001 C CNN
+F 3 "~" H 5250 1200 50  0001 C CNN
+	1    5250 1200
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 1200
+Wire Wire Line
+	4700 1200 4700 1300
+$Comp
+L Connector:Screw_Terminal_01x02 J8
+U 1 1 5DD1C9F7
+P 5850 1500
+F 0 "J8" H 5930 1492 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5930 1401 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 5850 1500 50  0001 C CNN
+F 3 "~" H 5850 1500 50  0001 C CNN
+	1    5850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5DD1DB0E
+P 5600 1700
+F 0 "#PWR0114" H 5600 1450 50  0001 C CNN
+F 1 "GND" H 5605 1527 50  0000 C CNN
+F 2 "" H 5600 1700 50  0001 C CNN
+F 3 "" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1700 5600 1600
+Wire Wire Line
+	5600 1600 5650 1600
+$Comp
+L Device:R R2
+U 1 1 5DD2133C
+P 5250 1500
+F 0 "R2" V 5043 1500 50  0000 C CNN
+F 1 "R" V 5134 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 1500 50  0001 C CNN
+F 3 "~" H 5250 1500 50  0001 C CNN
+	1    5250 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 1500 5100 1500
+Wire Wire Line
+	4700 1200 5100 1200
+Wire Wire Line
+	5400 1200 5500 1200
+Wire Wire Line
+	5500 1200 5500 1500
+Wire Wire Line
+	5500 1500 5400 1500
+Wire Wire Line
+	5650 1500 5500 1500
+Connection ~ 5500 1500
+$Comp
+L power:+12V #PWR0115
+U 1 1 5DD3FDD1
+P 4700 2200
+F 0 "#PWR0115" H 4700 2050 50  0001 C CNN
+F 1 "+12V" H 4715 2373 50  0000 C CNN
+F 2 "" H 4700 2200 50  0001 C CNN
+F 3 "" H 4700 2200 50  0001 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2200 4700 2300
+Text GLabel 4700 2800 0    50   Input ~ 0
+SSR-B
+$Comp
+L Device:R R3
+U 1 1 5DD3FDD9
+P 5250 2300
+F 0 "R3" V 5043 2300 50  0000 C CNN
+F 1 "R" V 5134 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 2300 50  0001 C CNN
+F 3 "~" H 5250 2300 50  0001 C CNN
+	1    5250 2300
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 2300
+Wire Wire Line
+	4700 2300 4700 2400
+$Comp
+L Connector:Screw_Terminal_01x02 J9
+U 1 1 5DD3FDE1
+P 5850 2600
+F 0 "J9" H 5930 2592 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5930 2501 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 5850 2600 50  0001 C CNN
+F 3 "~" H 5850 2600 50  0001 C CNN
+	1    5850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5DD3FDE7
+P 5600 2800
+F 0 "#PWR0116" H 5600 2550 50  0001 C CNN
+F 1 "GND" H 5605 2627 50  0000 C CNN
+F 2 "" H 5600 2800 50  0001 C CNN
+F 3 "" H 5600 2800 50  0001 C CNN
+	1    5600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2800 5600 2700
+Wire Wire Line
+	5600 2700 5650 2700
+$Comp
+L Device:R R4
+U 1 1 5DD3FDEF
+P 5250 2600
+F 0 "R4" V 5043 2600 50  0000 C CNN
+F 1 "R" V 5134 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 2600 50  0001 C CNN
+F 3 "~" H 5250 2600 50  0001 C CNN
+	1    5250 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2600 5100 2600
+Wire Wire Line
+	4700 2300 5100 2300
+Wire Wire Line
+	5400 2300 5500 2300
+Wire Wire Line
+	5500 2300 5500 2600
+Wire Wire Line
+	5500 2600 5400 2600
+Wire Wire Line
+	5650 2600 5500 2600
+Connection ~ 5500 2600
+$Comp
+L power:+12V #PWR0117
+U 1 1 5DD4BB59
+P 4700 3300
+F 0 "#PWR0117" H 4700 3150 50  0001 C CNN
+F 1 "+12V" H 4715 3473 50  0000 C CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3300 4700 3400
+Text GLabel 4700 3900 0    50   Input ~ 0
+SSR-C
+$Comp
+L Device:R R5
+U 1 1 5DD4BB61
+P 5250 3400
+F 0 "R5" V 5043 3400 50  0000 C CNN
+F 1 "R" V 5134 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 3400 50  0001 C CNN
+F 3 "~" H 5250 3400 50  0001 C CNN
+	1    5250 3400
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 3400
+Wire Wire Line
+	4700 3400 4700 3500
+$Comp
+L Connector:Screw_Terminal_01x02 J10
+U 1 1 5DD4BB69
+P 5850 3700
+F 0 "J10" H 5930 3692 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5930 3601 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 5850 3700 50  0001 C CNN
+F 3 "~" H 5850 3700 50  0001 C CNN
+	1    5850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5DD4BB6F
+P 5600 3900
+F 0 "#PWR0118" H 5600 3650 50  0001 C CNN
+F 1 "GND" H 5605 3727 50  0000 C CNN
+F 2 "" H 5600 3900 50  0001 C CNN
+F 3 "" H 5600 3900 50  0001 C CNN
+	1    5600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3900 5600 3800
+Wire Wire Line
+	5600 3800 5650 3800
+$Comp
+L Device:R R6
+U 1 1 5DD4BB77
+P 5250 3700
+F 0 "R6" V 5043 3700 50  0000 C CNN
+F 1 "R" V 5134 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 3700 50  0001 C CNN
+F 3 "~" H 5250 3700 50  0001 C CNN
+	1    5250 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3700 5100 3700
+Wire Wire Line
+	4700 3400 5100 3400
+Wire Wire Line
+	5400 3400 5500 3400
+Wire Wire Line
+	5500 3400 5500 3700
+Wire Wire Line
+	5500 3700 5400 3700
+Wire Wire Line
+	5650 3700 5500 3700
+Connection ~ 5500 3700
+$Comp
+L power:+12V #PWR0119
+U 1 1 5DD4ECA1
+P 4700 4400
+F 0 "#PWR0119" H 4700 4250 50  0001 C CNN
+F 1 "+12V" H 4715 4573 50  0000 C CNN
+F 2 "" H 4700 4400 50  0001 C CNN
+F 3 "" H 4700 4400 50  0001 C CNN
+	1    4700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4400 4700 4500
+Text GLabel 4700 5000 0    50   Input ~ 0
+SSR-D
+$Comp
+L Device:R R7
+U 1 1 5DD4ECA9
+P 5250 4500
+F 0 "R7" V 5043 4500 50  0000 C CNN
+F 1 "R" V 5134 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 4500 50  0001 C CNN
+F 3 "~" H 5250 4500 50  0001 C CNN
+	1    5250 4500
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 4500
+Wire Wire Line
+	4700 4500 4700 4600
+$Comp
+L Connector:Screw_Terminal_01x02 J11
+U 1 1 5DD4ECB1
+P 5850 4800
+F 0 "J11" H 5930 4792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5930 4701 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 5850 4800 50  0001 C CNN
+F 3 "~" H 5850 4800 50  0001 C CNN
+	1    5850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5DD4ECB7
+P 5600 5000
+F 0 "#PWR0120" H 5600 4750 50  0001 C CNN
+F 1 "GND" H 5605 4827 50  0000 C CNN
+F 2 "" H 5600 5000 50  0001 C CNN
+F 3 "" H 5600 5000 50  0001 C CNN
+	1    5600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5000 5600 4900
+Wire Wire Line
+	5600 4900 5650 4900
+$Comp
+L Device:R R8
+U 1 1 5DD4ECBF
+P 5250 4800
+F 0 "R8" V 5043 4800 50  0000 C CNN
+F 1 "R" V 5134 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 4800 50  0001 C CNN
+F 3 "~" H 5250 4800 50  0001 C CNN
+	1    5250 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 4800 5100 4800
+Wire Wire Line
+	4700 4500 5100 4500
+Wire Wire Line
+	5400 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 4800
+Wire Wire Line
+	5500 4800 5400 4800
+Wire Wire Line
+	5650 4800 5500 4800
+Connection ~ 5500 4800
+$Comp
+L power:+12V #PWR0121
+U 1 1 5DD521B0
+P 4700 5500
+F 0 "#PWR0121" H 4700 5350 50  0001 C CNN
+F 1 "+12V" H 4715 5673 50  0000 C CNN
+F 2 "" H 4700 5500 50  0001 C CNN
+F 3 "" H 4700 5500 50  0001 C CNN
+	1    4700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5500 4700 5600
+Text GLabel 4700 6100 0    50   Input ~ 0
+SSR-E
+$Comp
+L Device:R R9
+U 1 1 5DD521B8
+P 5250 5600
+F 0 "R9" V 5043 5600 50  0000 C CNN
+F 1 "R" V 5134 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 5600 50  0001 C CNN
+F 3 "~" H 5250 5600 50  0001 C CNN
+	1    5250 5600
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 5600
+Wire Wire Line
+	4700 5600 4700 5700
+$Comp
+L Connector:Screw_Terminal_01x02 J12
+U 1 1 5DD521C0
+P 5850 5900
+F 0 "J12" H 5930 5892 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5930 5801 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 5850 5900 50  0001 C CNN
+F 3 "~" H 5850 5900 50  0001 C CNN
+	1    5850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5DD521C6
+P 5600 6100
+F 0 "#PWR0122" H 5600 5850 50  0001 C CNN
+F 1 "GND" H 5605 5927 50  0000 C CNN
+F 2 "" H 5600 6100 50  0001 C CNN
+F 3 "" H 5600 6100 50  0001 C CNN
+	1    5600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6100 5600 6000
+Wire Wire Line
+	5600 6000 5650 6000
+$Comp
+L Device:R R10
+U 1 1 5DD521CE
+P 5250 5900
+F 0 "R10" V 5043 5900 50  0000 C CNN
+F 1 "R" V 5134 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 5900 50  0001 C CNN
+F 3 "~" H 5250 5900 50  0001 C CNN
+	1    5250 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 5900 5100 5900
+Wire Wire Line
+	4700 5600 5100 5600
+Wire Wire Line
+	5400 5600 5500 5600
+Wire Wire Line
+	5500 5600 5500 5900
+Wire Wire Line
+	5500 5900 5400 5900
+Wire Wire Line
+	5650 5900 5500 5900
+Connection ~ 5500 5900
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5DD58CF3
+P 9050 3200
+F 0 "J14" H 9130 3192 50  0000 L CNN
+F 1 "Conn_01x02" H 9130 3101 50  0000 L CNN
+F 2 "Highside-powerdistribution:XT60PW-F" H 9050 3200 50  0001 C CNN
+F 3 "~" H 9050 3200 50  0001 C CNN
+	1    9050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5DD591C0
+P 8750 3400
+F 0 "#PWR0123" H 8750 3150 50  0001 C CNN
+F 1 "GND" H 8755 3227 50  0000 C CNN
+F 2 "" H 8750 3400 50  0001 C CNN
+F 3 "" H 8750 3400 50  0001 C CNN
+	1    8750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0124
+U 1 1 5DD5985F
+P 8750 3100
+F 0 "#PWR0124" H 8750 2950 50  0001 C CNN
+F 1 "+12V" H 8765 3273 50  0000 C CNN
+F 2 "" H 8750 3100 50  0001 C CNN
+F 3 "" H 8750 3100 50  0001 C CNN
+	1    8750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3100 8750 3200
+Wire Wire Line
+	8750 3200 8850 3200
+Wire Wire Line
+	8850 3300 8750 3300
+Wire Wire Line
+	8750 3300 8750 3400
+Text Notes 8600 2800 0    50   ~ 0
+XT-60PW-M \nTH Power inlet\nhttps://www.tme.eu/se/details/xt60pw-m/dc-kontaktdon/amass/
+Wire Notes Line
+	8550 2850 9900 2850
+Wire Notes Line
+	9900 2850 9900 3700
+Wire Notes Line
+	9900 3700 8550 3700
+Wire Notes Line
+	8550 3700 8550 2850
+$Comp
+L Highside-powerdistribution:P-MOSFET Q1
+U 1 1 5DD10AD3
+P 4800 1500
+F 0 "Q1" H 5005 1454 50  0000 L CNN
+F 1 "P-MOSFET" H 5005 1545 50  0000 L CNN
+F 2 "Highside-powerdistribution:AOI403" H 4800 1500 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/dd9e9fcbccf7c5b1f5f9da06cbc5bf44/AOD403-DTE.pdf" H 4800 1500 50  0001 C CNN
+	1    4800 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Highside-powerdistribution:P-MOSFET Q2
+U 1 1 5DD11A69
+P 4800 2600
+F 0 "Q2" H 5005 2554 50  0000 L CNN
+F 1 "P-MOSFET" H 5005 2645 50  0000 L CNN
+F 2 "Highside-powerdistribution:AOI403" H 4800 2600 50  0001 C CNN
+F 3 "" H 4800 2600 50  0001 C CNN
+	1    4800 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Highside-powerdistribution:P-MOSFET Q3
+U 1 1 5DD125D9
+P 4800 3700
+F 0 "Q3" H 5005 3654 50  0000 L CNN
+F 1 "P-MOSFET" H 5005 3745 50  0000 L CNN
+F 2 "Highside-powerdistribution:AOI403" H 4800 3700 50  0001 C CNN
+F 3 "" H 4800 3700 50  0001 C CNN
+	1    4800 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Highside-powerdistribution:P-MOSFET Q4
+U 1 1 5DD13C8D
+P 4800 4800
+F 0 "Q4" H 5005 4754 50  0000 L CNN
+F 1 "P-MOSFET" H 5005 4845 50  0000 L CNN
+F 2 "Highside-powerdistribution:AOI403" H 4800 4800 50  0001 C CNN
+F 3 "" H 4800 4800 50  0001 C CNN
+	1    4800 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Highside-powerdistribution:P-MOSFET Q5
+U 1 1 5DD14A5B
+P 4800 5900
+F 0 "Q5" H 5005 5854 50  0000 L CNN
+F 1 "P-MOSFET" H 5005 5945 50  0000 L CNN
+F 2 "Highside-powerdistribution:AOI403" H 4800 5900 50  0001 C CNN
+F 3 "" H 4800 5900 50  0001 C CNN
+	1    4800 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0125
+U 1 1 5DD247EF
+P 4700 6650
+F 0 "#PWR0125" H 4700 6500 50  0001 C CNN
+F 1 "+12V" H 4715 6823 50  0000 C CNN
+F 2 "" H 4700 6650 50  0001 C CNN
+F 3 "" H 4700 6650 50  0001 C CNN
+	1    4700 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6650 4700 6750
+Text GLabel 4700 7250 0    50   Input ~ 0
+SSR-F
+$Comp
+L Device:R R11
+U 1 1 5DD247F7
+P 5250 6750
+F 0 "R11" V 5043 6750 50  0000 C CNN
+F 1 "R" V 5134 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 6750 50  0001 C CNN
+F 3 "~" H 5250 6750 50  0001 C CNN
+	1    5250 6750
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 6750
+Wire Wire Line
+	4700 6750 4700 6850
+$Comp
+L Connector:Screw_Terminal_01x02 J13
+U 1 1 5DD247FF
+P 5850 7050
+F 0 "J13" H 5930 7042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5930 6951 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 5850 7050 50  0001 C CNN
+F 3 "~" H 5850 7050 50  0001 C CNN
+	1    5850 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5DD24805
+P 5600 7250
+F 0 "#PWR0126" H 5600 7000 50  0001 C CNN
+F 1 "GND" H 5605 7077 50  0000 C CNN
+F 2 "" H 5600 7250 50  0001 C CNN
+F 3 "" H 5600 7250 50  0001 C CNN
+	1    5600 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 7250 5600 7150
+Wire Wire Line
+	5600 7150 5650 7150
+$Comp
+L Device:R R12
+U 1 1 5DD2480D
+P 5250 7050
+F 0 "R12" V 5043 7050 50  0000 C CNN
+F 1 "R" V 5134 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 7050 50  0001 C CNN
+F 3 "~" H 5250 7050 50  0001 C CNN
+	1    5250 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 7050 5100 7050
+Wire Wire Line
+	4700 6750 5100 6750
+Wire Wire Line
+	5400 6750 5500 6750
+Wire Wire Line
+	5500 6750 5500 7050
+Wire Wire Line
+	5500 7050 5400 7050
+Wire Wire Line
+	5650 7050 5500 7050
+Connection ~ 5500 7050
+$Comp
+L Highside-powerdistribution:P-MOSFET Q6
+U 1 1 5DD2481A
+P 4800 7050
+F 0 "Q6" H 5005 7004 50  0000 L CNN
+F 1 "P-MOSFET" H 5005 7095 50  0000 L CNN
+F 2 "Highside-powerdistribution:AOI403" H 4800 7050 50  0001 C CNN
+F 3 "" H 4800 7050 50  0001 C CNN
+	1    4800 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x06 J15
+U 1 1 5DD77384
+P 9300 4450
+F 0 "J15" H 9380 4442 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 9380 4351 50  0000 L CNN
+F 2 "Highside-powerdistribution:ETB11060B000Z" H 9300 4450 50  0001 C CNN
+F 3 "~" H 9300 4450 50  0001 C CNN
+	1    9300 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9100 4250 0    50   Input ~ 0
+SSR-A
+Text GLabel 9100 4350 0    50   Input ~ 0
+SSR-B
+Text GLabel 9100 4450 0    50   Input ~ 0
+SSR-C
+Text GLabel 9100 4550 0    50   Input ~ 0
+SSR-D
+Text GLabel 9100 4650 0    50   Input ~ 0
+SSR-E
+Text GLabel 9100 4750 0    50   Input ~ 0
+SSR-F
 $EndSCHEMATC
