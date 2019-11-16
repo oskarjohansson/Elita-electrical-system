@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP P-MOSFET
+F https://www.tme.eu/Document/dd9e9fcbccf7c5b1f5f9da06cbc5bf44/AOD403-DTE.pdf
+$ENDCMP
+#
 #End Doc Library
