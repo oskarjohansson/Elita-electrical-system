@@ -1,4 +1,4 @@
-(module XT60PW-F (layer F.Cu) (tedit 5DD06990)
+(module XT60PW-F (layer F.Cu) (tedit 5DD06CDF)
   (fp_text reference REF** (at 0 3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
