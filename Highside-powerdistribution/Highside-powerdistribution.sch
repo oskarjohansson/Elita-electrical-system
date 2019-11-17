@@ -986,17 +986,17 @@ F 3 "~" H 9300 4450 50  0001 C CNN
 	1    9300 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 9100 4250 0    50   Input ~ 0
+Text GLabel 8600 4250 0    50   Input ~ 0
 SSR-A
-Text GLabel 9100 4350 0    50   Input ~ 0
+Text GLabel 8600 4350 0    50   Input ~ 0
 SSR-B
-Text GLabel 9100 4450 0    50   Input ~ 0
+Text GLabel 8600 4450 0    50   Input ~ 0
 SSR-C
-Text GLabel 9100 4550 0    50   Input ~ 0
+Text GLabel 8600 4550 0    50   Input ~ 0
 SSR-D
-Text GLabel 9100 4650 0    50   Input ~ 0
+Text GLabel 8600 4650 0    50   Input ~ 0
 SSR-E
-Text GLabel 9100 4750 0    50   Input ~ 0
+Text GLabel 8600 4750 0    50   Input ~ 0
 SSR-F
 $Comp
 L Device:C C1
@@ -1141,4 +1141,94 @@ Wire Wire Line
 Connection ~ 5600 7500
 Wire Wire Line
 	5600 7500 5600 7550
+$Comp
+L Device:Fuse F1
+U 1 1 5DD1C641
+P 8850 4250
+F 0 "F1" V 8653 4250 50  0000 C CNN
+F 1 "Fuse" V 8744 4250 50  0000 C CNN
+F 2 "Highside-powerdistribution:PTF-15" V 8780 4250 50  0001 C CNN
+F 3 "~" H 8850 4250 50  0001 C CNN
+	1    8850 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 5DD1CD8A
+P 8850 4350
+F 0 "F2" V 8653 4350 50  0000 C CNN
+F 1 "Fuse" V 8744 4350 50  0000 C CNN
+F 2 "Highside-powerdistribution:PTF-15" V 8780 4350 50  0001 C CNN
+F 3 "~" H 8850 4350 50  0001 C CNN
+	1    8850 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F3
+U 1 1 5DD1D01B
+P 8850 4450
+F 0 "F3" V 8653 4450 50  0000 C CNN
+F 1 "Fuse" V 8744 4450 50  0000 C CNN
+F 2 "Highside-powerdistribution:PTF-15" V 8780 4450 50  0001 C CNN
+F 3 "~" H 8850 4450 50  0001 C CNN
+	1    8850 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F4
+U 1 1 5DD1D0B5
+P 8850 4550
+F 0 "F4" V 8653 4550 50  0000 C CNN
+F 1 "Fuse" V 8744 4550 50  0000 C CNN
+F 2 "Highside-powerdistribution:PTF-15" V 8780 4550 50  0001 C CNN
+F 3 "~" H 8850 4550 50  0001 C CNN
+	1    8850 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F5
+U 1 1 5DD1D14A
+P 8850 4650
+F 0 "F5" V 8653 4650 50  0000 C CNN
+F 1 "Fuse" V 8744 4650 50  0000 C CNN
+F 2 "Highside-powerdistribution:PTF-15" V 8780 4650 50  0001 C CNN
+F 3 "~" H 8850 4650 50  0001 C CNN
+	1    8850 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F6
+U 1 1 5DD1D1DF
+P 8850 4750
+F 0 "F6" V 8653 4750 50  0000 C CNN
+F 1 "Fuse" V 8744 4750 50  0000 C CNN
+F 2 "Highside-powerdistribution:PTF-15" V 8780 4750 50  0001 C CNN
+F 3 "~" H 8850 4750 50  0001 C CNN
+	1    8850 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 4250 8700 4250
+Wire Wire Line
+	8700 4350 8600 4350
+Wire Wire Line
+	8600 4450 8700 4450
+Wire Wire Line
+	8700 4550 8600 4550
+Wire Wire Line
+	8600 4650 8700 4650
+Wire Wire Line
+	8700 4750 8600 4750
+Wire Wire Line
+	9100 4750 9000 4750
+Wire Wire Line
+	9000 4650 9100 4650
+Wire Wire Line
+	9100 4550 9000 4550
+Wire Wire Line
+	9000 4450 9100 4450
+Wire Wire Line
+	9100 4350 9000 4350
+Wire Wire Line
+	9000 4250 9100 4250
 $EndSCHEMATC
