@@ -221,12 +221,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J8
 U 1 1 5DD1C9F7
-P 3350 1300
-F 0 "J8" H 3430 1292 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 3430 1201 50  0000 L CNN
-F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3350 1300 50  0001 C CNN
-F 3 "~" H 3350 1300 50  0001 C CNN
-	1    3350 1300
+P 3800 1300
+F 0 "J8" H 3880 1292 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3880 1201 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3800 1300 50  0001 C CNN
+F 3 "~" H 3800 1300 50  0001 C CNN
+	1    3800 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -240,21 +240,17 @@ F 3 "" H 3100 1800 50  0001 C CNN
 	1    3100 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 1400 3150 1400
 $Comp
 L Device:R R2
 U 1 1 5DD2133C
-P 2400 1300
-F 0 "R2" V 2193 1300 50  0000 C CNN
-F 1 "R" V 2284 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 1300 50  0001 C CNN
-F 3 "~" H 2400 1300 50  0001 C CNN
-	1    2400 1300
+P 3300 1300
+F 0 "R2" V 3093 1300 50  0000 C CNN
+F 1 "R" V 3184 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 1300 50  0001 C CNN
+F 3 "~" H 3300 1300 50  0001 C CNN
+	1    3300 1300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 1300 2250 1300
 Wire Wire Line
 	1850 1000 2250 1000
 Wire Wire Line
@@ -294,12 +290,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J9
 U 1 1 5DD3FDE1
-P 3350 2400
-F 0 "J9" H 3430 2392 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 3430 2301 50  0000 L CNN
-F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3350 2400 50  0001 C CNN
-F 3 "~" H 3350 2400 50  0001 C CNN
-	1    3350 2400
+P 3800 2400
+F 0 "J9" H 3880 2392 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3880 2301 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3800 2400 50  0001 C CNN
+F 3 "~" H 3800 2400 50  0001 C CNN
+	1    3800 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -313,21 +309,17 @@ F 3 "" H 3100 2900 50  0001 C CNN
 	1    3100 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 2500 3150 2500
 $Comp
 L Device:R R4
 U 1 1 5DD3FDEF
-P 2400 2400
-F 0 "R4" V 2193 2400 50  0000 C CNN
-F 1 "R" V 2284 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 2400 50  0001 C CNN
-F 3 "~" H 2400 2400 50  0001 C CNN
-	1    2400 2400
+P 3300 2400
+F 0 "R4" V 3093 2400 50  0000 C CNN
+F 1 "R" V 3184 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 2400 50  0001 C CNN
+F 3 "~" H 3300 2400 50  0001 C CNN
+	1    3300 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 2400 2250 2400
 Wire Wire Line
 	1850 2100 2250 2100
 Wire Wire Line
@@ -367,12 +359,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 5DD4BB69
-P 3350 3500
-F 0 "J10" H 3430 3492 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 3430 3401 50  0000 L CNN
-F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3350 3500 50  0001 C CNN
-F 3 "~" H 3350 3500 50  0001 C CNN
-	1    3350 3500
+P 3800 3500
+F 0 "J10" H 3880 3492 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3880 3401 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3800 3500 50  0001 C CNN
+F 3 "~" H 3800 3500 50  0001 C CNN
+	1    3800 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -386,21 +378,17 @@ F 3 "" H 3100 4000 50  0001 C CNN
 	1    3100 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 3600 3150 3600
 $Comp
 L Device:R R6
 U 1 1 5DD4BB77
-P 2400 3500
-F 0 "R6" V 2193 3500 50  0000 C CNN
-F 1 "R" V 2284 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 3500 50  0001 C CNN
-F 3 "~" H 2400 3500 50  0001 C CNN
-	1    2400 3500
+P 3300 3500
+F 0 "R6" V 3093 3500 50  0000 C CNN
+F 1 "R" V 3184 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 3500 50  0001 C CNN
+F 3 "~" H 3300 3500 50  0001 C CNN
+	1    3300 3500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 3500 2250 3500
 Wire Wire Line
 	1850 3200 2250 3200
 Wire Wire Line
@@ -440,12 +428,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J11
 U 1 1 5DD4ECB1
-P 3350 4600
-F 0 "J11" H 3430 4592 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 3430 4501 50  0000 L CNN
-F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3350 4600 50  0001 C CNN
-F 3 "~" H 3350 4600 50  0001 C CNN
-	1    3350 4600
+P 3800 4600
+F 0 "J11" H 3880 4592 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3880 4501 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3800 4600 50  0001 C CNN
+F 3 "~" H 3800 4600 50  0001 C CNN
+	1    3800 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -459,21 +447,17 @@ F 3 "" H 3100 5100 50  0001 C CNN
 	1    3100 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 4700 3150 4700
 $Comp
 L Device:R R8
 U 1 1 5DD4ECBF
-P 2400 4600
-F 0 "R8" V 2193 4600 50  0000 C CNN
-F 1 "R" V 2284 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 4600 50  0001 C CNN
-F 3 "~" H 2400 4600 50  0001 C CNN
-	1    2400 4600
+P 3300 4600
+F 0 "R8" V 3093 4600 50  0000 C CNN
+F 1 "R" V 3184 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 4600 50  0001 C CNN
+F 3 "~" H 3300 4600 50  0001 C CNN
+	1    3300 4600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 4600 2250 4600
 Wire Wire Line
 	1850 4300 2250 4300
 Wire Wire Line
@@ -513,12 +497,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J12
 U 1 1 5DD521C0
-P 3350 5700
-F 0 "J12" H 3430 5692 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 3430 5601 50  0000 L CNN
-F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3350 5700 50  0001 C CNN
-F 3 "~" H 3350 5700 50  0001 C CNN
-	1    3350 5700
+P 3800 5700
+F 0 "J12" H 3880 5692 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3880 5601 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3800 5700 50  0001 C CNN
+F 3 "~" H 3800 5700 50  0001 C CNN
+	1    3800 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -532,21 +516,17 @@ F 3 "" H 3100 6200 50  0001 C CNN
 	1    3100 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 5800 3150 5800
 $Comp
 L Device:R R10
 U 1 1 5DD521CE
-P 2400 5700
-F 0 "R10" V 2193 5700 50  0000 C CNN
-F 1 "R" V 2284 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 5700 50  0001 C CNN
-F 3 "~" H 2400 5700 50  0001 C CNN
-	1    2400 5700
+P 3300 5700
+F 0 "R10" V 3093 5700 50  0000 C CNN
+F 1 "R" V 3184 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 5700 50  0001 C CNN
+F 3 "~" H 3300 5700 50  0001 C CNN
+	1    3300 5700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 5700 2250 5700
 Wire Wire Line
 	1850 5400 2250 5400
 Wire Wire Line
@@ -676,49 +656,35 @@ Wire Wire Line
 Wire Wire Line
 	3000 2400 3000 2500
 Wire Wire Line
-	3100 2500 3100 2850
-Wire Wire Line
 	3000 2800 3000 2850
 Wire Wire Line
 	3000 2850 3100 2850
-Connection ~ 3100 2850
 Wire Wire Line
 	3100 2850 3100 2900
-Wire Wire Line
-	3100 3600 3100 3950
 Wire Wire Line
 	3000 3600 3000 3500
 Wire Wire Line
 	3000 3900 3000 3950
 Wire Wire Line
 	3000 3950 3100 3950
-Connection ~ 3100 3950
 Wire Wire Line
 	3100 3950 3100 4000
 Wire Wire Line
 	3000 4600 3000 4700
 Wire Wire Line
-	3100 4700 3100 5050
-Wire Wire Line
 	3000 5000 3000 5050
 Wire Wire Line
 	3000 5050 3100 5050
-Connection ~ 3100 5050
 Wire Wire Line
 	3100 5050 3100 5100
 Wire Wire Line
 	3000 5700 3000 5800
 Wire Wire Line
-	3100 5800 3100 6150
-Wire Wire Line
 	3000 6100 3000 6150
 Wire Wire Line
 	3000 6150 3100 6150
-Connection ~ 3100 6150
 Wire Wire Line
 	3100 6150 3100 6200
-Wire Wire Line
-	3100 1400 3100 1750
 $Comp
 L power:+12V #PWR0125
 U 1 1 5DD247EF
@@ -732,15 +698,12 @@ F 3 "" H 1850 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3100 7250 3100 7300
-Connection ~ 3100 7250
 Wire Wire Line
 	3000 7250 3100 7250
 Wire Wire Line
 	3000 7200 3000 7250
 Wire Wire Line
 	3000 6900 3000 6800
-Wire Wire Line
-	3100 6900 3100 7250
 $Comp
 L power:GND #PWR0126
 U 1 1 5DD24805
@@ -781,30 +744,26 @@ Wire Wire Line
 	3000 6500 3000 6800
 Wire Wire Line
 	1850 6500 2250 6500
-Wire Wire Line
-	2150 6800 2250 6800
 $Comp
 L Device:R R12
 U 1 1 5DD2480D
-P 2400 6800
-F 0 "R12" V 2193 6800 50  0000 C CNN
-F 1 "R" V 2284 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 6800 50  0001 C CNN
-F 3 "~" H 2400 6800 50  0001 C CNN
-	1    2400 6800
+P 3300 6800
+F 0 "R12" V 3093 6800 50  0000 C CNN
+F 1 "R" V 3184 6800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 6800 50  0001 C CNN
+F 3 "~" H 3300 6800 50  0001 C CNN
+	1    3300 6800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3100 6900 3150 6900
 $Comp
 L Connector:Screw_Terminal_01x02 J13
 U 1 1 5DD247FF
-P 3350 6800
-F 0 "J13" H 3430 6792 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 3430 6701 50  0000 L CNN
-F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3350 6800 50  0001 C CNN
-F 3 "~" H 3350 6800 50  0001 C CNN
-	1    3350 6800
+P 3800 6800
+F 0 "J13" H 3880 6792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3880 6701 50  0000 L CNN
+F 2 "Highside-powerdistribution:PTSA 1,5 2-3,5-Z" H 3800 6800 50  0001 C CNN
+F 3 "~" H 3800 6800 50  0001 C CNN
+	1    3800 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -824,25 +783,15 @@ $EndComp
 Text GLabel 1850 7000 0    50   Input ~ 0
 SSR-F
 Wire Wire Line
-	2550 6800 3000 6800
-Wire Wire Line
 	2550 6500 2750 6500
 Wire Wire Line
 	2550 5400 2750 5400
 Wire Wire Line
-	2550 4600 2750 4600
-Wire Wire Line
 	2550 4300 2750 4300
-Wire Wire Line
-	2550 3500 2750 3500
 Wire Wire Line
 	2550 3200 2750 3200
 Wire Wire Line
-	2550 2400 2750 2400
-Wire Wire Line
 	2550 2100 2750 2100
-Wire Wire Line
-	2550 1300 2750 1300
 Wire Wire Line
 	2550 1000 3000 1000
 Wire Wire Line
@@ -935,8 +884,6 @@ Connection ~ 2750 5400
 Wire Wire Line
 	2750 5400 3000 5400
 Wire Wire Line
-	2550 5700 2750 5700
-Wire Wire Line
 	2750 6050 2750 5700
 Wire Wire Line
 	2600 6050 2750 6050
@@ -963,4 +910,73 @@ Wire Wire Line
 Connection ~ 2750 6500
 Wire Wire Line
 	2750 6500 3000 6500
+Text Notes 5300 1350 0    79   ~ 0
+Description
+Text Notes 4600 1850 0    50   ~ 0
+- P-channel MOSFET with a pull-up and a debounce capacitor. \n- The gates for two is paralell to be abel to use one switch for \n   two or more mosfets.\n- An LP-filter from switch. \n\n
+Wire Wire Line
+	2150 2400 2750 2400
+Wire Wire Line
+	3450 2400 3600 2400
+Wire Wire Line
+	3600 1300 3450 1300
+Wire Wire Line
+	2150 1300 2750 1300
+Wire Wire Line
+	3450 3500 3600 3500
+Wire Wire Line
+	2150 3500 2750 3500
+Wire Wire Line
+	3450 4600 3600 4600
+Wire Wire Line
+	2150 4600 2750 4600
+Wire Wire Line
+	3450 5700 3600 5700
+Wire Wire Line
+	2150 5700 2750 5700
+Wire Wire Line
+	3450 6800 3600 6800
+Wire Wire Line
+	2150 6800 3000 6800
+Wire Wire Line
+	3100 6150 3500 6150
+Wire Wire Line
+	3500 6150 3500 5800
+Wire Wire Line
+	3500 5800 3600 5800
+Connection ~ 3100 6150
+Wire Wire Line
+	3600 6900 3500 6900
+Wire Wire Line
+	3500 6900 3500 7250
+Wire Wire Line
+	3500 7250 3100 7250
+Connection ~ 3100 7250
+Wire Wire Line
+	3100 5050 3500 5050
+Wire Wire Line
+	3500 5050 3500 4700
+Connection ~ 3100 5050
+Wire Wire Line
+	3500 4700 3600 4700
+Wire Wire Line
+	3100 3950 3500 3950
+Wire Wire Line
+	3500 3950 3500 3600
+Connection ~ 3100 3950
+Wire Wire Line
+	3500 3600 3600 3600
+Wire Wire Line
+	3100 2850 3500 2850
+Wire Wire Line
+	3500 2850 3500 2500
+Wire Wire Line
+	3500 2500 3600 2500
+Connection ~ 3100 2850
+Wire Wire Line
+	3600 1400 3500 1400
+Wire Wire Line
+	3500 1400 3500 1750
+Wire Wire Line
+	3500 1750 3100 1750
 $EndSCHEMATC
