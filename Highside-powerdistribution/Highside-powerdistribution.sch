@@ -20,7 +20,7 @@ U 1 1 5DD58CF3
 P 9050 3200
 F 0 "J14" H 9130 3192 50  0000 L CNN
 F 1 "Conn_01x02" H 9130 3101 50  0000 L CNN
-F 2 "Highside-powerdistribution:XT60PW-F" H 9050 3200 50  0001 C CNN
+F 2 "Highside-powerdistribution:Phoenix_TB_2-1935776" H 9050 3200 50  0001 C CNN
 F 3 "~" H 9050 3200 50  0001 C CNN
 	1    9050 3200
 	1    0    0    -1  

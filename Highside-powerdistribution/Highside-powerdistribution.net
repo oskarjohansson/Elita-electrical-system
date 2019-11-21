@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\oskar\\Dropbox\\Dokument\\Projekt\\Elita\\Electrical system\\Highside-Powerdistribution\\Highside-powerdistribution\\Highside-powerdistribution.sch")
-    (date "11/21/19 18:16:11")
+    (date "11/21/19 20:28:20")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J14)
       (value Conn_01x02)
-      (footprint Highside-powerdistribution:XT60PW-F)
+      (footprint Highside-powerdistribution:Phoenix_TB_2-1935776)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
