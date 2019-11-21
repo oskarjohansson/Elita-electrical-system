@@ -560,7 +560,7 @@ U 1 1 5DD10AD3
 P 1950 1300
 F 0 "Q1" H 2155 1254 50  0000 L CNN
 F 1 "P-MOSFET" H 2155 1345 50  0000 L CNN
-F 2 "Highside-powerdistribution:AOI403" H 1950 1300 50  0001 C CNN
+F 2 "Highside-powerdistribution:PG-TO263-3-2" H 1950 1300 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/dd9e9fcbccf7c5b1f5f9da06cbc5bf44/AOD403-DTE.pdf" H 1950 1300 50  0001 C CNN
 	1    1950 1300
 	-1   0    0    1   
@@ -571,7 +571,7 @@ U 1 1 5DD11A69
 P 1950 2400
 F 0 "Q2" H 2155 2354 50  0000 L CNN
 F 1 "P-MOSFET" H 2155 2445 50  0000 L CNN
-F 2 "Highside-powerdistribution:AOI403" H 1950 2400 50  0001 C CNN
+F 2 "Highside-powerdistribution:PG-TO263-3-2" H 1950 2400 50  0001 C CNN
 F 3 "" H 1950 2400 50  0001 C CNN
 	1    1950 2400
 	-1   0    0    1   
@@ -582,7 +582,7 @@ U 1 1 5DD125D9
 P 1950 3500
 F 0 "Q3" H 2155 3454 50  0000 L CNN
 F 1 "P-MOSFET" H 2155 3545 50  0000 L CNN
-F 2 "Highside-powerdistribution:AOI403" H 1950 3500 50  0001 C CNN
+F 2 "Highside-powerdistribution:PG-TO263-3-2" H 1950 3500 50  0001 C CNN
 F 3 "" H 1950 3500 50  0001 C CNN
 	1    1950 3500
 	-1   0    0    1   
@@ -593,7 +593,7 @@ U 1 1 5DD13C8D
 P 1950 4600
 F 0 "Q4" H 2155 4554 50  0000 L CNN
 F 1 "P-MOSFET" H 2155 4645 50  0000 L CNN
-F 2 "Highside-powerdistribution:AOI403" H 1950 4600 50  0001 C CNN
+F 2 "Highside-powerdistribution:PG-TO263-3-2" H 1950 4600 50  0001 C CNN
 F 3 "" H 1950 4600 50  0001 C CNN
 	1    1950 4600
 	-1   0    0    1   
@@ -604,7 +604,7 @@ U 1 1 5DD14A5B
 P 1950 5700
 F 0 "Q5" H 2155 5654 50  0000 L CNN
 F 1 "P-MOSFET" H 2155 5745 50  0000 L CNN
-F 2 "Highside-powerdistribution:AOI403" H 1950 5700 50  0001 C CNN
+F 2 "Highside-powerdistribution:PG-TO263-3-2" H 1950 5700 50  0001 C CNN
 F 3 "" H 1950 5700 50  0001 C CNN
 	1    1950 5700
 	-1   0    0    1   
@@ -769,7 +769,7 @@ U 1 1 5DD2481A
 P 1950 6800
 F 0 "Q6" H 2155 6754 50  0000 L CNN
 F 1 "P-MOSFET" H 2155 6845 50  0000 L CNN
-F 2 "Highside-powerdistribution:AOI403" H 1950 6800 50  0001 C CNN
+F 2 "Highside-powerdistribution:PG-TO263-3-2" H 1950 6800 50  0001 C CNN
 F 3 "" H 1950 6800 50  0001 C CNN
 	1    1950 6800
 	-1   0    0    1   
