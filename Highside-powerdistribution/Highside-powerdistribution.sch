@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+	EESchema Schematic File Version 4
 LIBS:Highside-powerdistribution-cache
 EELAYER 30 0
 EELAYER END
@@ -656,49 +656,35 @@ Wire Wire Line
 Wire Wire Line
 	3000 2400 3000 2500
 Wire Wire Line
-	3100 2500 3100 2850
-Wire Wire Line
 	3000 2800 3000 2850
 Wire Wire Line
 	3000 2850 3100 2850
-Connection ~ 3100 2850
 Wire Wire Line
 	3100 2850 3100 2900
-Wire Wire Line
-	3100 3600 3100 3950
 Wire Wire Line
 	3000 3600 3000 3500
 Wire Wire Line
 	3000 3900 3000 3950
 Wire Wire Line
 	3000 3950 3100 3950
-Connection ~ 3100 3950
 Wire Wire Line
 	3100 3950 3100 4000
 Wire Wire Line
 	3000 4600 3000 4700
 Wire Wire Line
-	3100 4700 3100 5050
-Wire Wire Line
 	3000 5000 3000 5050
 Wire Wire Line
 	3000 5050 3100 5050
-Connection ~ 3100 5050
 Wire Wire Line
 	3100 5050 3100 5100
 Wire Wire Line
 	3000 5700 3000 5800
 Wire Wire Line
-	3100 5800 3100 6150
-Wire Wire Line
 	3000 6100 3000 6150
 Wire Wire Line
 	3000 6150 3100 6150
-Connection ~ 3100 6150
 Wire Wire Line
 	3100 6150 3100 6200
-Wire Wire Line
-	3100 1400 3100 1750
 $Comp
 L power:+12V #PWR0125
 U 1 1 5DD247EF
