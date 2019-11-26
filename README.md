@@ -27,8 +27,9 @@ The outcome is hopefully a reliable and easy system that connects devices and sh
 | Subsystem                | Power consumption     | Need switch           | Comment                          |
 | --------------------- | --------------------- | --------------------- | ----------------------------------- | 
 | Navigation lights     | 4x2 W                 | Yes                   |                                     |
-| Deck light            | 10 W                  | Yes                   |                                     |
-| Cabin light           | 5 W                   | Yes                   |                                     |
+| Anchor lights         | 5 W                   | Yes                   | Doesn't exist yet.                  |
+| Deck light            | 35 W                  | Yes                   |                                     |
+| Cabin light           | 5 W                   | Yes                   | Doesn't exist yet.                  |
 | Water pump            | 35 W                  | Yes                   |                                     |
 | Stereo                | 100 W                 | Yes                   |                                     |
 | Switched light        | 5x2 W                 | No                    | Has a switch on lamp.               |
@@ -36,6 +37,9 @@ The outcome is hopefully a reliable and easy system that connects devices and sh
 | Septiempty            | 35 W                  | Yes                   |                                     |
 | Instrument panel      | 100 W                 | Yes                   | VHF, Plotter, etc.                  |
 | Solarpanel            | 60 W                  | No                    | Output from controller to battery.  |
+| 12V outlet            | 30 W                  | No                    |                                     |
+| Voltage meter         |                       | Yes                   |                                     |
+
 
 
 
