@@ -39,7 +39,7 @@ The outcome is hopefully a reliable and easy system that connects devices and sh
 | Solarpanel            | 60 W                  | No                    | Output from controller to battery.  |
 | 12V outlet            | 30 W                  | No                    |                                     |
 | Voltage meter         |                       | Yes                   |                                     |
-
+| Current meter         |                       |                       | Hall current meter                  |
 
 
 
