@@ -40,6 +40,12 @@ The outcome is hopefully a reliable and easy system that connects devices and sh
 | 12V outlet            | 30 W                  | No                    |                                     |
 | Voltage meter         |                       | Yes                   |                                     |
 | Current meter         |                       |                       | Hall current meter                  |
+| Heater                | 50 W                  | No                    |                                     |
 
 
+
+# Tips from different sources
+- Bigger cables closes to terminal
+- Accessible battery switch
+- Strict color coding!  
 
