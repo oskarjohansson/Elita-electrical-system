@@ -1,4 +1,4 @@
-	EESchema Schematic File Version 4
+EESchema Schematic File Version 4
 LIBS:Highside-powerdistribution-cache
 EELAYER 30 0
 EELAYER END
