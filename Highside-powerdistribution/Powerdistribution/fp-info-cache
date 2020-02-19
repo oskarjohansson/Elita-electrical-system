@@ -1,4 +1,4 @@
-16312049190605478
+16348325693759912
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -45346,12 +45346,33 @@ heatsink
 2
 1
 Highside-powerdistribution
+4x4Mounting
+
+
+0
+4
+0
+Highside-powerdistribution
+20.101M-6
+
+
+0
+6
+6
+Highside-powerdistribution
 AOI403
 
 
 0
 3
 3
+Highside-powerdistribution
+ATO_Fuseholder_3522-2
+
+
+0
+4
+2
 Highside-powerdistribution
 ETB11060B000Z
 https://www.tme.eu/Document/fc46f4835401e1efd2b1c63222fda02a/ETB11040B000Z.pdf
@@ -45367,6 +45388,13 @@ Mountinghole
 1
 0
 Highside-powerdistribution
+PG-TO263-3-2
+
+
+0
+3
+3
+Highside-powerdistribution
 PTF-15
 
 
@@ -45374,11 +45402,32 @@ PTF-15
 2
 2
 Highside-powerdistribution
-PTSA 1,5 2-3,5-Z
+PTSA1,5-2-3,5-Z
 
 
 0
 2
+2
+Highside-powerdistribution
+Phoenix-TBBig-PLH16-2-15
+
+
+0
+8
+2
+Highside-powerdistribution
+Phoenix_TB_2-1935776
+
+
+0
+2
+2
+Highside-powerdistribution
+TE_TerminalBlock_1-2834016-2
+
+
+0
+4
 2
 Highside-powerdistribution
 WireDistresser
@@ -63867,6 +63916,118 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+PrivateLib
+DPAK
+
+
+0
+3
+2
+PrivateLib
+HSMT8
+HSMT8
+MOSFET (N-Channel)
+0
+9
+9
+PrivateLib
+QFN-56_7x7_Pitch0.4mm
+
+
+0
+68
+59
+PrivateLib
+QFN40P300X300X80-21N-D
+TPD6S300ARUKR
+Integrated Circuit
+0
+21
+21
+PrivateLib
+QFN40P400X400X80-33N-D
+RSN (S-PWQFN-N32)
+Integrated Circuit
+0
+33
+33
+PrivateLib
+QFN40P400X400X100-33N-D
+RSM32A-VQFN-32
+Integrated Circuit
+0
+33
+33
+PrivateLib
+SOIC127P600X175-8N
+8-Pin SOIC8 150-mil (Package Code SN)
+Integrated Circuit
+0
+8
+8
+PrivateLib
+SON35P100X100X40-6N
+DSF (S-PX2SON-N6)
+Integrated Circuit
+0
+6
+6
+PrivateLib
+SOT95P280X110-6N
+DDC (R-PDSO-G6)
+Power Supply
+0
+6
+6
+PrivateLib
+SOT95P280X145-5N
+DBV (R-PDSO-G5)
+Power Supply
+0
+5
+5
+PrivateLib
+SRP1265A
+
+
+0
+2
+2
+PrivateLib
+SW_B3U-3000P
+
+
+0
+2
+2
+PrivateLib
+WE_Inductor_7443330220
+
+
+0
+2
+2
+PrivateLib
+WE_Inductor_8070_7443340330
+
+
+0
+2
+2
+PrivateLib
+XT30PW-M
+
+
+0
+4
+2
+PrivateLib
+XT60PW-F
+
+
+0
+4
+2
 RF
 Skyworks_SKY65404-31
 http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
