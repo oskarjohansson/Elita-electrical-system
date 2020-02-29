@@ -14,6 +14,7 @@ The outcome is hopefully a reliable and easy system that connects devices and sh
 *The system will have some requirements and a lot of though.*
 
 ## Requirements
+- Follow ISO for such system
 - Easy to use
 - Lowest voltage drop possible
 - No heat issue
