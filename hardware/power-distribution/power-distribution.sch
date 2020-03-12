@@ -440,10 +440,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 5950 3450 6000
 $Comp
-L Connector:Screw_Terminal_01x04 J9
+L Connector:Screw_Terminal_01x04 POWER_OUT
 U 1 1 5E6A6967
 P 7350 4650
-F 0 "J9" H 7430 4642 50  0000 L CNN
+F 0 "POWER_OUT" H 7430 4642 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 7430 4551 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal" H 7350 4650 50  0001 C CNN
 F 3 "~" H 7350 4650 50  0001 C CNN
@@ -451,10 +451,10 @@ F 3 "~" H 7350 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J8
+L Connector:Screw_Terminal_01x02 POWER_IN
 U 1 1 5E6AC4D9
 P 6750 3350
-F 0 "J8" H 6830 3342 50  0000 L CNN
+F 0 "POWER_IN" H 6830 3342 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 6600 3150 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 6750 3350 50  0001 C CNN
 F 3 "~" H 6750 3350 50  0001 C CNN
@@ -514,21 +514,21 @@ D1
 Wire Notes Line
 	7600 3000 7600 3850
 $Comp
-L Connector:Screw_Terminal_01x02 J4
+L Connector:Screw_Terminal_01x02 SWITCH_A
 U 1 1 5E6C9453
 P 4800 2450
-F 0 "J4" H 4880 2442 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 4650 2250 50  0000 L CNN
+F 0 "SWITCH_A" H 4880 2442 50  0000 L CNN
+F 1 "Screw_Terminal_01x0" H 4650 2250 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 4800 2450 50  0001 C CNN
 F 3 "~" H 4800 2450 50  0001 C CNN
 	1    4800 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J5
+L Connector:Screw_Terminal_01x02 SWITCH_B
 U 1 1 5E6C9AB8
 P 4800 3550
-F 0 "J5" H 4880 3542 50  0000 L CNN
+F 0 "SWITCH_B" H 4880 3542 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 4650 3350 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 4800 3550 50  0001 C CNN
 F 3 "~" H 4800 3550 50  0001 C CNN
@@ -536,10 +536,10 @@ F 3 "~" H 4800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J6
+L Connector:Screw_Terminal_01x02 SWITCH_C
 U 1 1 5E6C9D95
 P 4800 4650
-F 0 "J6" H 4880 4642 50  0000 L CNN
+F 0 "SWITCH_C" H 4880 4642 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 4650 4450 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 4800 4650 50  0001 C CNN
 F 3 "~" H 4800 4650 50  0001 C CNN
@@ -547,10 +547,10 @@ F 3 "~" H 4800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J7
+L Connector:Screw_Terminal_01x02 SWITCH_C
 U 1 1 5E6CA2F0
 P 4800 5750
-F 0 "J7" H 4880 5742 50  0000 L CNN
+F 0 "SWITCH_C" H 4880 5742 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 4650 5550 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 4800 5750 50  0001 C CNN
 F 3 "~" H 4800 5750 50  0001 C CNN
