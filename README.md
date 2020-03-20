@@ -10,6 +10,21 @@ The aim for this project is to simplify the wiring and make it possible for non-
 ## Outcome 
 The outcome is hopefully a reliable and easy system that connects devices and shorten the wiring. 
 
+## Directories 
+```
+Elita-electrical-system
+├── documents                 # Manuals, ISO-documents, etc.       
+├── hardware                  # Schematics, pcbs, etc.
+│   ├── flyback-protection    # To use in series of DC-motors to protect electrical system from flyback-currents.
+│   ├── gerber                # Common folder for all gerber-files.
+│   ├── mppt-solar-charger    # A new controller to be used instead of the PWM controller.
+│   ├── power-distribution    # Distribute power through mosfets and switches.
+│   ├── powersplitter         # In-line to split up the power-line.
+│   └── shorepower            # Schematic over how the shorepower should be connected according to complient ISO.         
+└── img                       # Photos and images 
+  ```
+
+
 # System 
 *The system will have some requirements and a lot of though.*
 
