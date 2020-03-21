@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mppt-solar-charger-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -127,8 +128,6 @@ Wire Wire Line
 	750  2850 750  2900
 Wire Wire Line
 	2550 2300 2550 2200
-Wire Wire Line
-	750  2200 2150 2200
 Connection ~ 2550 2200
 Wire Wire Line
 	2850 2300 2850 2200
@@ -836,7 +835,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 4000 2150 2200
 Connection ~ 3450 4000
-Connection ~ 2150 2200
 Wire Wire Line
 	2150 2200 2550 2200
 $Comp
@@ -1034,8 +1032,37 @@ Wire Wire Line
 Connection ~ 10200 4500
 Wire Wire Line
 	10200 4100 10200 4050
-Wire Wire Line
-	10200 4050 9600 4050
 Connection ~ 10200 4100
+$Comp
+L Device:Fuse ATO_fuse?
+U 1 1 5E76407D
+P 1750 2200
+F 0 "ATO_fuse?" V 1553 2200 50  0000 C CNN
+F 1 "5A" V 1644 2200 50  0000 C CNN
+F 2 "" V 1680 2200 50  0001 C CNN
+F 3 "~" H 1750 2200 50  0001 C CNN
+	1    1750 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2200 2150 2200
+Connection ~ 2150 2200
+Wire Wire Line
+	1600 2200 750  2200
+$Comp
+L Device:Fuse ATO_fuse?
+U 1 1 5E772453
+P 9900 4050
+F 0 "ATO_fuse?" V 9703 4050 50  0000 C CNN
+F 1 "10A" V 9794 4050 50  0000 C CNN
+F 2 "" V 9830 4050 50  0001 C CNN
+F 3 "~" H 9900 4050 50  0001 C CNN
+	1    9900 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 4050 10200 4050
+Wire Wire Line
+	9750 4050 9600 4050
 Connection ~ 9600 4050
 $EndSCHEMATC
