@@ -1,6 +1,0 @@
-Terminal block 6: 	https://www.digikey.se/product-detail/sv/phoenix-contact/1935200/277-1581-ND/568618
-Fuse holder: 		https://www.digikey.com/product-detail/en/keystone-electronics/3522-2/36-3522-2-ND/151571
-P mosfet 		https://www.digikey.se/product-detail/sv/alpha-omega-semiconductor-inc/AOD403/785-1101-1-ND/1856044
-Terminal block 2:	https://www.digikey.se/product-detail/sv/phoenix-contact/1990009/277-1794-ND/950922
-New terminal block 2: 	https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1770539.pdf
-Terminal block 2?: 	https://www.digikey.se/products/sv?keywords=1935161
