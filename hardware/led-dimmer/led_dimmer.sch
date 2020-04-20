@@ -393,7 +393,7 @@ Wire Wire Line
 Text GLabel 1850 1600 0    50   Input ~ 0
 ~RESET
 Text GLabel 6100 2100 2    50   Input ~ 0
-A1
+A1_BATVOLT
 Text GLabel 6100 2200 2    50   Input ~ 0
 A2
 Text GLabel 4100 2300 0    50   Input ~ 0
@@ -642,8 +642,8 @@ Wire Wire Line
 Text Notes 6700 4450 0    50   ~ 0
 12V if possible, otherwise 5V
 Wire Wire Line
-	8000 3900 8250 3900
-Text GLabel 8250 4000 0    50   Input ~ 0
+	8000 3900 8150 3900
+Text GLabel 8250 4100 0    50   Input ~ 0
 LED
 Text GLabel 4100 2700 0    50   Input ~ 0
 D4_PMOS_SWA
@@ -658,7 +658,7 @@ L Device:Fuse_Small F1
 U 1 1 5E8EDDED
 P 8150 3800
 F 0 "F1" H 8150 3985 50  0000 C CNN
-F 1 "Fuse_Small" H 8150 3894 50  0000 C CNN
+F 1 "5A" H 8150 3894 50  0000 C CNN
 F 2 "Private Fuses:ATO_Fuseholder_3522-2" H 8150 3800 50  0001 C CNN
 F 3 "~" H 8150 3800 50  0001 C CNN
 	1    8150 3800
@@ -778,19 +778,79 @@ Wire Wire Line
 	8550 1050 8550 1200
 Text GLabel 8550 1750 2    50   Input ~ 0
 LED
+Wire Wire Line
+	8550 1600 8550 1750
+Wire Wire Line
+	7850 1400 8100 1400
 $Comp
-L Connector:Screw_Terminal_01x03 J2
-U 1 1 5E8FEA19
+L Device:R_Small R6
+U 1 1 5E9692E7
+P 7500 3650
+F 0 "R6" H 7559 3696 50  0000 L CNN
+F 1 "1k" H 7559 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7500 3650 50  0001 C CNN
+F 3 "~" H 7500 3650 50  0001 C CNN
+	1    7500 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5E96A36E
+P 7500 3950
+F 0 "R9" H 7559 3996 50  0000 L CNN
+F 1 "1k" H 7559 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7500 3950 50  0001 C CNN
+F 3 "~" H 7500 3950 50  0001 C CNN
+	1    7500 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 3750 7500 3800
+$Comp
+L power:GND #PWR0105
+U 1 1 5E97387E
+P 7500 4050
+F 0 "#PWR0105" H 7500 3800 50  0001 C CNN
+F 1 "GND" H 7505 3877 50  0000 C CNN
+F 2 "" H 7500 4050 50  0001 C CNN
+F 3 "" H 7500 4050 50  0001 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0106
+U 1 1 5E973AB6
+P 7500 3550
+F 0 "#PWR0106" H 7500 3400 50  0001 C CNN
+F 1 "+12V" H 7515 3723 50  0000 C CNN
+F 2 "" H 7500 3550 50  0001 C CNN
+F 3 "" H 7500 3550 50  0001 C CNN
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3800 7350 3800
+Connection ~ 7500 3800
+Wire Wire Line
+	7500 3800 7500 3850
+Text GLabel 7350 3800 0    50   Input ~ 0
+A1_BATVOLT
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 5E9E6490
 P 8450 3900
-F 0 "J2" H 8530 3942 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 8530 3851 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 8450 3900 50  0001 C CNN
+F 0 "J2" H 8530 3892 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 8530 3801 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 8450 3900 50  0001 C CNN
 F 3 "~" H 8450 3900 50  0001 C CNN
 	1    8450 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 1600 8550 1750
+	8250 4000 8150 4000
 Wire Wire Line
-	7850 1400 8100 1400
+	8150 4000 8150 3900
+Connection ~ 8150 3900
+Wire Wire Line
+	8150 3900 8250 3900
 $EndSCHEMATC
