@@ -40,23 +40,26 @@ Elita-electrical-system
 
 ## Subsystems
 
-| Subsystem                | Power consumption     | Need switch           | Comment                          |
+| Subsystem             | Power consumption     | Need switch           | Comment                             |
 | --------------------- | --------------------- | --------------------- | ----------------------------------- | 
-| Navigation lights     | 4x2 W                 | Yes                   |                                     |
+| Navigation lights     | 3x15 W                | Yes                   |                                     |
+| Motgor lights         | 1x15 W                | Yes                   |                                     |
 | Anchor lights         | 5 W                   | Yes                   | Doesn't exist yet.                  |
 | Deck light            | 35 W                  | Yes                   |                                     |
-| Cabin light           | 5 W                   | Yes                   | Doesn't exist yet.                  |
+| Cabin light           | 40 W                  | Yes                   | Doesn't exist yet.                  |
 | Water pump            | 35 W                  | Yes                   |                                     |
-| Stereo                | 100 W                 | Yes                   |                                     |
-| Switched light        | 5x2 W                 | No                    | Has a switch on lamp.               |
+| Stereo                | 50 W                  | Yes                   |                                     |
 | Refigerator           | 50 W                  | Yes                   |                                     |
-| Septiempty            | 35 W                  | Yes                   |                                     |
+| Septi pump            | 50 W                  | Yes                   |                                     |
 | Instrument panel      | 100 W                 | Yes                   | VHF, Plotter, etc.                  |
-| Solarpanel            | 60 W                  | No                    | Output from controller to battery.  |
-| 12V outlet            | 30 W                  | No                    |                                     |
-| Voltage meter         |                       | Yes                   |                                     |
+| Inverter 12/220V      | 600 W                 | Yes                   | Some 50 A relay maybe               |
 | Current meter         |                       |                       | Hall current meter                  |
-| Heater                | 50 W                  | No                    |                                     |
+| Voltage meter         |                       | No                    | Should always be on                 |
+| Switched light        | 5x5 W                 | No                    | Has a switch on lamp.               |
+| Heater                | 40 W                  | No                    | Has it's own control panel          |
+| 12V + usb outlet      | 50 W                  | No                    |                                     |
+| Solarpanel            | 60 W                  | No                    | Output from controller to battery.  |
+
 
 
 
