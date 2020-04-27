@@ -43,20 +43,20 @@ Elita-electrical-system
 | Subsystem             | Power consumption     | Need switch           | Comment                             |
 | --------------------- | --------------------- | --------------------- | ----------------------------------- | 
 | Navigation lights     | 3x15 W                | Yes                   |                                     |
-| Motgor lights         | 1x15 W                | Yes                   |                                     |
+| Motor lights          | 1x15 W                | Yes                   |                                     |
 | Anchor lights         | 5 W                   | Yes                   | Doesn't exist yet.                  |
 | Deck light            | 35 W                  | Yes                   |                                     |
 | Cabin light           | 40 W                  | Yes                   | Doesn't exist yet.                  |
-| Water pump            | 35 W                  | Yes                   |                                     |
 | Stereo                | 50 W                  | Yes                   |                                     |
+| Water pump            | 35 W                  | Yes                   |                                     |
 | Refigerator           | 50 W                  | Yes                   |                                     |
 | Septi pump            | 50 W                  | Yes                   |                                     |
 | Instrument panel      | 100 W                 | Yes                   | VHF, Plotter, etc.                  |
 | Inverter 12/220V      | 600 W                 | Yes                   | Some 50 A relay maybe               |
-| Current meter         |                       |                       | Hall current meter                  |
+| Current meter         |                       | No                    | Hall current meter                  |
 | Voltage meter         |                       | No                    | Should always be on                 |
-| Switched light        | 5x5 W                 | No                    | Has a switch on lamp.               |
-| Heater                | 40 W                  | No                    | Has it's own control panel          |
+| Switched light        | 5x5 W + 15 W          | No                    | Bedside, toilett and kitchen        |
+| Heater                | 40 W                  | No                    | Has is own control panel            |
 | 12V + usb outlet      | 50 W                  | No                    |                                     |
 | Solarpanel            | 60 W                  | No                    | Output from controller to battery.  |
 
