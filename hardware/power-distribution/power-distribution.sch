@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power-distribution-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -50,34 +49,34 @@ Wire Notes Line
 	7600 3850 6250 3850
 Wire Notes Line
 	6250 3850 6250 3000
-Text GLabel 6650 4550 0    50   Input ~ 0
+Text GLabel 6650 4350 0    50   Input ~ 0
 SSR-A
-Text GLabel 6650 4650 0    50   Input ~ 0
+Text GLabel 6650 4550 0    50   Input ~ 0
 SSR-B
 Text GLabel 6650 4750 0    50   Input ~ 0
 SSR-C
-Text GLabel 6650 4850 0    50   Input ~ 0
+Text GLabel 6650 4950 0    50   Input ~ 0
 SSR-D
 $Comp
 L Device:Fuse F1
 U 1 1 5DD1C641
-P 6900 4550
-F 0 "F1" V 6950 4700 50  0000 C CNN
-F 1 "Fuse" V 6900 4550 50  0000 C CNN
-F 2 "Private Fuses:ATO_Fuseholder_3522-2" V 6830 4550 50  0001 C CNN
-F 3 "~" H 6900 4550 50  0001 C CNN
-	1    6900 4550
+P 6900 4350
+F 0 "F1" V 6950 4500 50  0000 C CNN
+F 1 "Fuse" V 6900 4350 50  0000 C CNN
+F 2 "Private Fuses:ATO_Fuseholder_3522-2" V 6830 4350 50  0001 C CNN
+F 3 "~" H 6900 4350 50  0001 C CNN
+	1    6900 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F2
 U 1 1 5DD1CD8A
-P 6900 4650
-F 0 "F2" V 6950 4800 50  0000 C CNN
-F 1 "Fuse" V 6900 4650 50  0000 C CNN
-F 2 "Private Fuses:ATO_Fuseholder_3522-2" V 6830 4650 50  0001 C CNN
-F 3 "~" H 6900 4650 50  0001 C CNN
-	1    6900 4650
+P 6900 4550
+F 0 "F2" V 6950 4700 50  0000 C CNN
+F 1 "Fuse" V 6900 4550 50  0000 C CNN
+F 2 "Private Fuses:ATO_Fuseholder_3522-2" V 6830 4550 50  0001 C CNN
+F 3 "~" H 6900 4550 50  0001 C CNN
+	1    6900 4550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -94,30 +93,22 @@ $EndComp
 $Comp
 L Device:Fuse F4
 U 1 1 5DD1D0B5
-P 6900 4850
-F 0 "F4" V 6950 5000 50  0000 C CNN
-F 1 "Fuse" V 6900 4850 50  0000 C CNN
-F 2 "Private Fuses:ATO_Fuseholder_3522-2" V 6830 4850 50  0001 C CNN
-F 3 "~" H 6900 4850 50  0001 C CNN
-	1    6900 4850
+P 6900 4950
+F 0 "F4" V 6950 5100 50  0000 C CNN
+F 1 "Fuse" V 6900 4950 50  0000 C CNN
+F 2 "Private Fuses:ATO_Fuseholder_3522-2" V 6830 4950 50  0001 C CNN
+F 3 "~" H 6900 4950 50  0001 C CNN
+	1    6900 4950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6650 4550 6750 4550
+	6650 4350 6750 4350
 Wire Wire Line
-	6750 4650 6650 4650
+	6750 4550 6650 4550
 Wire Wire Line
 	6650 4750 6750 4750
 Wire Wire Line
-	6750 4850 6650 4850
-Wire Wire Line
-	7150 4850 7050 4850
-Wire Wire Line
-	7050 4750 7150 4750
-Wire Wire Line
-	7150 4650 7050 4650
-Wire Wire Line
-	7050 4550 7150 4550
+	6750 4950 6650 4950
 $Comp
 L power:+12V #PWR01
 U 1 1 5DD16011
@@ -440,23 +431,12 @@ Wire Wire Line
 Wire Wire Line
 	3450 5950 3450 6000
 $Comp
-L Connector:Screw_Terminal_01x04 POWER_OUT1
-U 1 1 5E6A6967
-P 7350 4650
-F 0 "POWER_OUT1" H 7430 4642 50  0000 L CNN
-F 1 "Screw_Terminal_01x04" H 7430 4551 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal" H 7350 4650 50  0001 C CNN
-F 3 "~" H 7350 4650 50  0001 C CNN
-	1    7350 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 POWER_IN1
 U 1 1 5E6AC4D9
 P 6750 3350
 F 0 "POWER_IN1" H 6830 3342 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 6600 3150 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 6750 3350 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Wuerth_691311400102_P7.62mm" H 6750 3350 50  0001 C CNN
 F 3 "~" H 6750 3350 50  0001 C CNN
 	1    6750 3350
 	1    0    0    -1  
@@ -557,4 +537,51 @@ F 3 "~" H 4800 5750 50  0001 C CNN
 	1    4800 5750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x08 J4
+U 1 1 5F00FF06
+P 7450 4650
+F 0 "J4" H 7530 4642 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 7530 4551 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal" H 7450 4650 50  0001 C CNN
+F 3 "~" H 7450 4650 50  0001 C CNN
+	1    7450 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4350 7150 4350
+Wire Wire Line
+	7250 4450 7150 4450
+Wire Wire Line
+	7150 4450 7150 4350
+Connection ~ 7150 4350
+Wire Wire Line
+	7150 4350 7250 4350
+Wire Wire Line
+	7050 4550 7150 4550
+Wire Wire Line
+	7250 4650 7150 4650
+Wire Wire Line
+	7150 4650 7150 4550
+Connection ~ 7150 4550
+Wire Wire Line
+	7150 4550 7250 4550
+Wire Wire Line
+	7050 4750 7150 4750
+Wire Wire Line
+	7250 4850 7150 4850
+Wire Wire Line
+	7150 4850 7150 4750
+Connection ~ 7150 4750
+Wire Wire Line
+	7150 4750 7250 4750
+Wire Wire Line
+	7050 4950 7150 4950
+Wire Wire Line
+	7250 5050 7150 5050
+Wire Wire Line
+	7150 5050 7150 4950
+Connection ~ 7150 4950
+Wire Wire Line
+	7150 4950 7250 4950
 $EndSCHEMATC
