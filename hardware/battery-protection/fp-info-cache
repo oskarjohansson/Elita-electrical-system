@@ -1,4 +1,4 @@
-18634819089191196
+18638007554117901
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82068,9 +82068,23 @@ varistor SIOV
 2
 2
 mosfet
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+mosfet
 POWERPAKSO-8
 PowerPAK SO-8
 MOSFET (P-Channel)
 0
 9
+3
+mosfet
+SQJA72EPT1_GE3
+PowerPAK SO-8L Single
+MOSFET (N-Channel)
+0
+8
 3
