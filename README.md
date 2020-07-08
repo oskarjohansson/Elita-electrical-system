@@ -14,15 +14,24 @@ The outcome is hopefully a reliable and easy system that connects devices and sh
 ```
 Elita-electrical-system
 ├── documents                 # Manuals, ISO-documents, etc.       
+│   └── datasheets            # Datasheet for components.
 ├── hardware                  # Schematics, pcbs, etc.
+│   ├── battery-protection    # >100 A voltage protection for battery 
+│   ├── cad                   # All CAD files 
+│   ├── control-panel         # The control panel where all power switches are
+│   ├── electrical-system     # Summary of the whole system
 │   ├── flyback-protection    # To use in series of DC-motors to protect electrical system from flyback-currents.
 │   ├── gerber                # Common folder for all gerber-files.
+│   ├── ideal-diode           # An ideal diode circuit to charge the start battery everytime the bulk batteries is more charged.
+│   ├── led-dimmer            # A simple dimmer for LED strips using a rotate encoder and mosfet
+│   ├── libraries             # Project specific library.
 │   ├── mppt-solar-charger    # A new controller to be used instead of the PWM controller.
 │   ├── power-distribution    # Distribute power through mosfets and switches.
 │   ├── powersplitter         # In-line to split up the power-line.
+│   ├── schematic             # All electrical schematics.
 │   └── shorepower            # Schematic over how the shorepower should be connected according to complient ISO.         
 └── img                       # Photos and images 
-  ```
+```
 
 
 # System 
@@ -41,7 +50,7 @@ Elita-electrical-system
 ## Subsystems
 
 | Subsystem             | Power consumption     | Need switch           | Comment                             |
-| --------------------- | --------------------- | --------------------- | ----------------------------------- | 
+| --------------------- | --------------------- | --------------------- | ----------------------------------- |
 | Navigation lights     | 3x15 W                | Yes                   |                                     |
 | Motor lights          | 1x15 W                | Yes                   |                                     |
 | Anchor lights         | 5 W                   | Yes                   | Doesn't exist yet.                  |
