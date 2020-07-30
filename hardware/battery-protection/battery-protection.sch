@@ -217,17 +217,6 @@ $EndComp
 Text Notes 1200 800  0    50   ~ 0
 SI7157DP-T1-GE3
 $Comp
-L power:GND #PWR0107
-U 1 1 5F04D66F
-P 6800 1450
-F 0 "#PWR0107" H 6800 1200 50  0001 C CNN
-F 1 "GND" H 6805 1277 50  0000 C CNN
-F 2 "" H 6800 1450 50  0001 C CNN
-F 3 "" H 6800 1450 50  0001 C CNN
-	1    6800 1450
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small R_LED_IN1
 U 1 1 5F04F49F
 P 9900 5850
@@ -413,32 +402,10 @@ Text GLabel 6250 2500 0    50   Input ~ 0
 ~SHDN
 Wire Wire Line
 	6250 2400 6400 2400
-Text GLabel 6300 1300 0    50   Input ~ 0
+Text GLabel 6750 1200 0    50   Input ~ 0
 ~SHDN
-$Comp
-L Device:R_Small SHDN_PU1
-U 1 1 5F053F2F
-P 6500 1150
-F 0 "SHDN_PU1" H 6559 1196 50  0000 L CNN
-F 1 "10k" H 6559 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6500 1150 50  0001 C CNN
-F 3 "~" H 6500 1150 50  0001 C CNN
-	1    6500 1150
-	1    0    0    -1  
-$EndComp
-Text GLabel 6450 1000 0    50   Input ~ 0
-12V_in
 Wire Wire Line
-	6450 1000 6500 1000
-Wire Wire Line
-	6500 1000 6500 1050
-Wire Wire Line
-	6300 1300 6500 1300
-Wire Wire Line
-	6500 1300 6500 1250
-Wire Wire Line
-	6900 1300 6500 1300
-Connection ~ 6500 1300
+	6750 1200 7050 1200
 Text GLabel 6700 2150 0    50   Input ~ 0
 gate_driver
 $Comp
@@ -474,77 +441,6 @@ F 3 "" H 6700 1850 50  0001 C CNN
 	1    6700 1850
 	0    1    1    0   
 $EndComp
-Text GLabel 6300 1600 0    50   Input ~ 0
-~FAULT
-Wire Wire Line
-	6300 1600 6900 1600
-$Comp
-L Transistor_FET:IRLML6402 Q13
-U 1 1 5F068DCD
-P 7850 2500
-F 0 "Q13" H 8054 2546 50  0000 L CNN
-F 1 "IRLML6402" H 8054 2455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 2425 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 7850 2500 50  0001 L CNN
-	1    7850 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 2500 7300 2500
-Text GLabel 7900 2150 0    50   Input ~ 0
-~FAULT
-Text GLabel 7900 2850 0    50   Input ~ 0
-12V_in
-$Comp
-L Connector:Screw_Terminal_01x04 J6
-U 1 1 5F06C597
-P 7100 1400
-F 0 "J6" H 7180 1392 50  0000 L CNN
-F 1 "Control" H 7180 1301 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 7100 1400 50  0001 C CNN
-F 3 "~" H 7100 1400 50  0001 C CNN
-	1    7100 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small FAULT_PU1
-U 1 1 5F06D302
-P 7300 2650
-F 0 "FAULT_PU1" H 7359 2696 50  0000 L CNN
-F 1 "10k" H 7359 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7300 2650 50  0001 C CNN
-F 3 "~" H 7300 2650 50  0001 C CNN
-	1    7300 2650
-	1    0    0    -1  
-$EndComp
-Text GLabel 7300 2800 3    50   Input ~ 0
-12V_in
-Wire Wire Line
-	7300 2800 7300 2750
-Wire Wire Line
-	7300 2550 7300 2500
-Connection ~ 7300 2500
-Wire Wire Line
-	7300 2500 7650 2500
-Wire Wire Line
-	6800 1450 6850 1450
-Wire Wire Line
-	6850 1450 6850 1400
-Wire Wire Line
-	6850 1400 6900 1400
-Wire Wire Line
-	6900 1500 6850 1500
-Wire Wire Line
-	6850 1500 6850 1450
-Connection ~ 6850 1450
-Wire Wire Line
-	7900 2850 7950 2850
-Wire Wire Line
-	7950 2850 7950 2700
-Wire Wire Line
-	7950 2300 7950 2150
-Wire Wire Line
-	7950 2150 7900 2150
 Wire Wire Line
 	6400 2800 6250 2800
 Wire Wire Line
@@ -563,7 +459,7 @@ $EndComp
 Wire Wire Line
 	5550 2650 5550 2700
 Wire Wire Line
-	6400 2700 5550 2700
+	6400 2700 5900 2700
 Connection ~ 5550 2700
 Wire Wire Line
 	5550 2700 5550 2750
@@ -573,4 +469,106 @@ Text Notes 5750 2700 0    50   ~ 0
 0.5 V 
 Text Notes 6000 3300 0    50   ~ 0
 Do not use UV
+Connection ~ 7050 1200
+Wire Wire Line
+	7050 1200 8050 1200
+$Comp
+L Device:R_Small SHDN_PD1
+U 1 1 5F22E95E
+P 7050 1350
+F 0 "SHDN_PD1" H 7109 1396 50  0000 L CNN
+F 1 "10k" H 7109 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7050 1350 50  0001 C CNN
+F 3 "~" H 7050 1350 50  0001 C CNN
+	1    7050 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1250 7050 1200
+$Comp
+L power:GND #PWR0105
+U 1 1 5F22F7EF
+P 7050 1500
+F 0 "#PWR0105" H 7050 1250 50  0001 C CNN
+F 1 "GND" H 7055 1327 50  0000 C CNN
+F 2 "" H 7050 1500 50  0001 C CNN
+F 3 "" H 7050 1500 50  0001 C CNN
+	1    7050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1500 7050 1450
+$Comp
+L Device:C_Small UV3
+U 1 1 5F23BE67
+P 5900 2850
+F 0 "UV3" H 5992 2896 50  0000 L CNN
+F 1 "100pF" H 5992 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5900 2850 50  0001 C CNN
+F 3 "~" H 5900 2850 50  0001 C CNN
+	1    5900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F23C362
+P 5900 3000
+F 0 "#PWR0111" H 5900 2750 50  0001 C CNN
+F 1 "GND" H 5905 2827 50  0000 C CNN
+F 2 "" H 5900 3000 50  0001 C CNN
+F 3 "" H 5900 3000 50  0001 C CNN
+	1    5900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3000 5900 2950
+Wire Wire Line
+	5900 2750 5900 2700
+Connection ~ 5900 2700
+Wire Wire Line
+	5900 2700 5550 2700
+NoConn ~ 7200 2500
+$Comp
+L Connector:Screw_Terminal_01x06 J6
+U 1 1 5F269231
+P 8250 1300
+F 0 "J6" H 8330 1292 50  0000 L CNN
+F 1 "CTRL" H 8330 1201 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal" H 8250 1300 50  0001 C CNN
+F 3 "~" H 8250 1300 50  0001 C CNN
+	1    8250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1100 8050 1100
+Text GLabel 7950 1100 0    50   Input ~ 0
+12V_in
+Text GLabel 7950 1300 0    50   Input ~ 0
+12V_in
+Text GLabel 7950 1500 0    50   Input ~ 0
+12V_out
+Wire Wire Line
+	7550 1600 8050 1600
+Wire Wire Line
+	7950 1500 8050 1500
+Wire Wire Line
+	8050 1300 7950 1300
+Wire Wire Line
+	7550 1600 7550 1400
+Wire Wire Line
+	7550 1400 8050 1400
+Wire Wire Line
+	7550 1600 7550 1650
+Connection ~ 7550 1600
+$Comp
+L power:GND #PWR0107
+U 1 1 5F26DF10
+P 7550 1650
+F 0 "#PWR0107" H 7550 1400 50  0001 C CNN
+F 1 "GND" H 7555 1477 50  0000 C CNN
+F 2 "" H 7550 1650 50  0001 C CNN
+F 3 "" H 7550 1650 50  0001 C CNN
+	1    7550 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
