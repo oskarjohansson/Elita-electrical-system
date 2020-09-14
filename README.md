@@ -25,12 +25,16 @@ Elita-electrical-system
 │   ├── ideal-diode           # An ideal diode circuit to charge the start battery everytime the bulk batteries is more charged.
 │   ├── led-dimmer            # A simple dimmer for LED strips using a rotate encoder and mosfet
 │   ├── libraries             # Project specific library.
+│   ├── mount-panel           # A panel to mount the power distribution boards on.
 │   ├── mppt-solar-charger    # A new controller to be used instead of the PWM controller.
+│   ├── power-connector       # A simple power connector with M5 connectors. 
 │   ├── power-distribution    # Distribute power through mosfets and switches.
 │   ├── powersplitter         # In-line to split up the power-line.
 │   ├── schematic             # All electrical schematics.
 │   └── shorepower            # Schematic over how the shorepower should be connected according to complient ISO.         
-└── img                       # Photos and images 
+└── software                  # Firmwares
+    └── led_dimmer            # Fiwmare for the led dimmer. 
+	
 ```
 
 
