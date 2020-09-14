@@ -571,4 +571,6 @@ F 3 "" H 7550 1650 50  0001 C CNN
 	1    7550 1650
 	1    0    0    -1  
 $EndComp
+Text Notes 5150 3600 0    50   ~ 0
+12.00 V - 434 Ohm\n11.75 V - 444 Ohm\n11.50 V - 454 Ohm\n11.25 V - 465 Ohm
 $EndSCHEMATC
