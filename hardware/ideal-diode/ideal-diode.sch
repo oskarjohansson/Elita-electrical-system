@@ -1,0 +1,374 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10150 2750 10200 2750
+Text GLabel 10150 2750 0    50   Input ~ 0
+12V_in
+Wire Wire Line
+	10350 4500 10400 4500
+Text GLabel 10350 4500 0    50   Input ~ 0
+12V_out
+$Comp
+L Connector:Screw_Terminal_01x01 J3
+U 1 1 5F03A2F4
+P 10600 4500
+F 0 "J3" H 10680 4542 50  0000 L CNN
+F 1 "M5 Output" H 10680 4451 50  0000 L CNN
+F 2 "Private:M5_7461383" H 10600 4500 50  0001 C CNN
+F 3 "~" H 10600 4500 50  0001 C CNN
+	1    10600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J4
+U 1 1 5F03A872
+P 10400 2750
+F 0 "J4" H 10480 2792 50  0000 L CNN
+F 1 "M5 Output" H 10480 2701 50  0000 L CNN
+F 2 "Private:M5_7461383" H 10400 2750 50  0001 C CNN
+F 3 "~" H 10400 2750 50  0001 C CNN
+	1    10400 2750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5000 4000 5000 900 
+Wire Notes Line
+	5000 900  8650 900 
+Wire Notes Line
+	8650 900  8650 4000
+Wire Notes Line
+	8650 4000 5000 4000
+Wire Notes Line
+	9650 2450 11150 2450
+Wire Notes Line
+	11150 2450 11150 3450
+Wire Notes Line
+	11150 3450 9650 3450
+Wire Notes Line
+	9650 3450 9650 2450
+Wire Notes Line
+	9650 3950 11150 3950
+Wire Notes Line
+	11150 3950 11150 4950
+Wire Notes Line
+	11150 4950 9650 4950
+Wire Notes Line
+	9650 4950 9650 3950
+Text Notes 9650 2450 0    50   ~ 0
+Battery 12V M6 input
+Text Notes 9650 3950 0    50   ~ 0
+Load M5 output
+Text Notes 5000 1000 0    50   ~ 0
+UV Protection
+Wire Wire Line
+	10150 3000 10200 3000
+$Comp
+L Connector:Screw_Terminal_01x01 J2
+U 1 1 5F0C5312
+P 10400 3000
+F 0 "J2" H 10480 3042 50  0000 L CNN
+F 1 "M5 Ground" H 10480 2951 50  0000 L CNN
+F 2 "Private:M5_7461383" H 10400 3000 50  0001 C CNN
+F 3 "~" H 10400 3000 50  0001 C CNN
+	1    10400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F0C6683
+P 10150 3000
+F 0 "#PWR0106" H 10150 2750 50  0001 C CNN
+F 1 "GND" H 10155 2827 50  0000 C CNN
+F 2 "" H 10150 3000 50  0001 C CNN
+F 3 "" H 10150 3000 50  0001 C CNN
+	1    10150 3000
+	1    0    0    -1  
+$EndComp
+Text Notes 6450 1150 0    50   ~ 0
+SI7157DP-T1-GE3
+$Comp
+L Device:Q_NMOS_SGD Q10
+U 1 1 5F077BF2
+P 6800 2000
+F 0 "Q10" H 7004 2046 50  0000 L CNN
+F 1 "Q_NMOS_SGD" H 7004 1955 50  0000 L CNN
+F 2 "mosfet:SQJA72EPT1_GE3" H 7000 2100 50  0001 C CNN
+F 3 "~" H 6800 2000 50  0001 C CNN
+	1    6800 2000
+	0    1    -1   0   
+$EndComp
+Text GLabel 7200 1900 2    50   Input ~ 0
+12V_out
+Text GLabel 6400 1900 0    50   Input ~ 0
+12V_in
+$Comp
+L Power_Management:LM74700 U1
+U 1 1 5F3BB6D5
+P 6800 2700
+F 0 "U1" H 7230 2746 50  0000 L CNN
+F 1 "LM74700" H 7230 2655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6425 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/LM74700-Q1" H 6425 2350 50  0001 C CNN
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2200 6800 2300
+Wire Wire Line
+	6400 1900 6500 1900
+Wire Wire Line
+	7000 1900 7100 1900
+Wire Wire Line
+	7100 2300 7100 1900
+Connection ~ 7100 1900
+Wire Wire Line
+	7100 1900 7200 1900
+Wire Wire Line
+	6500 2300 6500 2200
+Connection ~ 6500 1900
+Wire Wire Line
+	6500 1900 6600 1900
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3C3172
+P 6800 3150
+F 0 "#PWR0101" H 6800 2900 50  0001 C CNN
+F 1 "GND" H 6805 2977 50  0000 C CNN
+F 2 "" H 6800 3150 50  0001 C CNN
+F 3 "" H 6800 3150 50  0001 C CNN
+	1    6800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3150 6800 3100
+$Comp
+L Device:C_Small UV1
+U 1 1 5F3C441D
+P 6150 2500
+F 0 "UV1" H 6242 2546 50  0000 L CNN
+F 1 "F" H 6242 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 2500 50  0001 C CNN
+F 3 "~" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2800 6150 2800
+Wire Wire Line
+	6150 2800 6150 2600
+Wire Wire Line
+	6150 2400 6150 2200
+Wire Wire Line
+	6150 2200 6500 2200
+Connection ~ 6500 2200
+Wire Wire Line
+	6500 2200 6500 1900
+Text GLabel 6800 2250 2    50   Input ~ 0
+Gate
+$Comp
+L Device:Q_NMOS_SGD Q1
+U 1 1 5F3D7C96
+P 8150 2000
+F 0 "Q1" H 8354 2046 50  0000 L CNN
+F 1 "Q_NMOS_SGD" H 8354 1955 50  0000 L CNN
+F 2 "mosfet:SQJA72EPT1_GE3" H 8350 2100 50  0001 C CNN
+F 3 "~" H 8150 2000 50  0001 C CNN
+	1    8150 2000
+	0    1    -1   0   
+$EndComp
+Text GLabel 7950 1900 0    50   Input ~ 0
+12V_in
+Text GLabel 8350 1900 2    50   Input ~ 0
+12V_out
+Text GLabel 8150 2200 2    50   Input ~ 0
+Gate
+$Comp
+L Device:R_Small R1
+U 1 1 5F3DB25F
+P 5850 2500
+F 0 "R1" H 5909 2546 50  0000 L CNN
+F 1 "DNP" H 5909 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 2500 50  0001 C CNN
+F 3 "~" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2400 5850 2200
+Wire Wire Line
+	5850 2200 6150 2200
+Connection ~ 6150 2200
+Wire Wire Line
+	5850 2600 5850 2900
+Wire Wire Line
+	5850 2900 6300 2900
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5F3DBDBA
+P 5350 2550
+F 0 "J1" H 5268 2225 50  0000 C CNN
+F 1 "Enable" H 5268 2316 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 5350 2550 50  0001 C CNN
+F 3 "~" H 5350 2550 50  0001 C CNN
+	1    5350 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2450 5550 2200
+Wire Wire Line
+	5550 2200 5850 2200
+Connection ~ 5850 2200
+Wire Wire Line
+	5550 2550 5550 2800
+Wire Wire Line
+	5550 2900 5850 2900
+Connection ~ 5850 2900
+$Comp
+L Device:C_Small UV3
+U 1 1 5F3E1751
+P 6850 3600
+F 0 "UV3" H 6942 3646 50  0000 L CNN
+F 1 "F" H 6942 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6850 3600 50  0001 C CNN
+F 3 "~" H 6850 3600 50  0001 C CNN
+	1    6850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small UV2
+U 1 1 5F3E2132
+P 6450 3600
+F 0 "UV2" H 6542 3646 50  0000 L CNN
+F 1 "F" H 6542 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6450 3600 50  0001 C CNN
+F 3 "~" H 6450 3600 50  0001 C CNN
+	1    6450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F3E2FD4
+P 6850 3750
+F 0 "#PWR0102" H 6850 3500 50  0001 C CNN
+F 1 "GND" H 6855 3577 50  0000 C CNN
+F 2 "" H 6850 3750 50  0001 C CNN
+F 3 "" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F3E3818
+P 6450 3750
+F 0 "#PWR0103" H 6450 3500 50  0001 C CNN
+F 1 "GND" H 6455 3577 50  0000 C CNN
+F 2 "" H 6450 3750 50  0001 C CNN
+F 3 "" H 6450 3750 50  0001 C CNN
+	1    6450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3700 6450 3750
+Wire Wire Line
+	6850 3750 6850 3700
+Text GLabel 6850 3450 2    50   Input ~ 0
+12V_out
+Text GLabel 6450 3450 0    50   Input ~ 0
+12V_in
+Wire Wire Line
+	6450 3450 6450 3500
+Wire Wire Line
+	6850 3450 6850 3500
+$Comp
+L Switch:SW_DIP_x01 SW1
+U 1 1 5F413EF8
+P 4400 2500
+F 0 "SW1" V 4354 2630 50  0000 L CNN
+F 1 "SW_DIP_x01" V 4445 2630 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 4400 2500 50  0001 C CNN
+F 3 "~" H 4400 2500 50  0001 C CNN
+	1    4400 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 2200 5550 2200
+Connection ~ 5550 2200
+Wire Wire Line
+	4400 2800 5550 2800
+Connection ~ 5550 2800
+Wire Wire Line
+	5550 2800 5550 2900
+$Comp
+L Device:D_TVS D1
+U 1 1 5F41A7E6
+P 5750 4700
+F 0 "D1" V 5704 4780 50  0000 L CNN
+F 1 "D_TVS" V 5795 4780 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 5750 4700 50  0001 C CNN
+F 3 "~" H 5750 4700 50  0001 C CNN
+	1    5750 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D2
+U 1 1 5F41AC7B
+P 6250 4700
+F 0 "D2" V 6204 4780 50  0000 L CNN
+F 1 "D_TVS" V 6295 4780 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 6250 4700 50  0001 C CNN
+F 3 "~" H 6250 4700 50  0001 C CNN
+	1    6250 4700
+	0    1    1    0   
+$EndComp
+Text GLabel 5700 4500 0    50   Input ~ 0
+12V_in
+Text GLabel 6300 4500 2    50   Input ~ 0
+12V_out
+Wire Wire Line
+	6300 4500 6250 4500
+Wire Wire Line
+	6250 4500 6250 4550
+Wire Wire Line
+	5750 4550 5750 4500
+Wire Wire Line
+	5750 4500 5700 4500
+$Comp
+L power:GND #PWR0104
+U 1 1 5F41C246
+P 6250 4900
+F 0 "#PWR0104" H 6250 4650 50  0001 C CNN
+F 1 "GND" H 6255 4727 50  0000 C CNN
+F 2 "" H 6250 4900 50  0001 C CNN
+F 3 "" H 6250 4900 50  0001 C CNN
+	1    6250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F41C5CE
+P 5750 4900
+F 0 "#PWR0105" H 5750 4650 50  0001 C CNN
+F 1 "GND" H 5755 4727 50  0000 C CNN
+F 2 "" H 5750 4900 50  0001 C CNN
+F 3 "" H 5750 4900 50  0001 C CNN
+	1    5750 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4900 5750 4850
+Wire Wire Line
+	6250 4850 6250 4900
+$EndSCHEMATC
