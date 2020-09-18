@@ -1,3 +1,6 @@
-old/
+**/old/
+
+**/OldVersions
+
 *.sch-bak
 *.kicad_pcb-bak
