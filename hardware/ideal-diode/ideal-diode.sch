@@ -371,4 +371,8 @@ Wire Wire Line
 	5750 4900 5750 4850
 Wire Wire Line
 	6250 4850 6250 4900
+Text Label 6100 2900 0    50   ~ 0
+EN
+Text Label 6150 2800 0    50   ~ 0
+VCAP
 $EndSCHEMATC
