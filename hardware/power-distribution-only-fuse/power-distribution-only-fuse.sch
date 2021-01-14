@@ -1,0 +1,217 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Fuse F5
+U 1 1 5DD1C641
+P 5250 3000
+F 0 "F5" V 5300 3150 50  0000 C CNN
+F 1 "Fuse" V 5250 3000 50  0000 C CNN
+F 2 "fuses:ATO_Fuseholder_3522-2" V 5180 3000 50  0001 C CNN
+F 3 "~" H 5250 3000 50  0001 C CNN
+	1    5250 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J4
+U 1 1 5F050E2F
+P 5000 4000
+F 0 "J4" H 5080 4042 50  0000 L CNN
+F 1 "12V" H 5080 3951 50  0000 L CNN
+F 2 "private:M6_7461098" H 5000 4000 50  0001 C CNN
+F 3 "~" H 5000 4000 50  0001 C CNN
+	1    5000 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR01
+U 1 1 5F0520D2
+P 5000 2350
+F 0 "#PWR01" H 5000 2200 50  0001 C CNN
+F 1 "+12V" H 5015 2523 50  0000 C CNN
+F 2 "" H 5000 2350 50  0001 C CNN
+F 3 "" H 5000 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J6
+U 1 1 5F22FCB2
+P 5800 3000
+F 0 "J6" H 5880 3042 50  0000 L CNN
+F 1 "12V out" H 5880 2951 50  0000 L CNN
+F 2 "Private:M5_7461383" H 5800 3000 50  0001 C CNN
+F 3 "~" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3000 5600 3000
+$Comp
+L Device:Fuse F6
+U 1 1 5F7B807C
+P 5250 3500
+F 0 "F6" V 5300 3650 50  0000 C CNN
+F 1 "Fuse" V 5250 3500 50  0000 C CNN
+F 2 "fuses:ATO_Fuseholder_3522-2" V 5180 3500 50  0001 C CNN
+F 3 "~" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J7
+U 1 1 5F7B8083
+P 5800 3500
+F 0 "J7" H 5880 3542 50  0000 L CNN
+F 1 "12V out" H 5880 3451 50  0000 L CNN
+F 2 "Private:M5_7461383" H 5800 3500 50  0001 C CNN
+F 3 "~" H 5800 3500 50  0001 C CNN
+	1    5800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3500 5600 3500
+$Comp
+L Device:Fuse F4
+U 1 1 5F7B8CA9
+P 5250 2500
+F 0 "F4" V 5300 2650 50  0000 C CNN
+F 1 "Fuse" V 5250 2500 50  0000 C CNN
+F 2 "fuses:ATO_Fuseholder_3522-2" V 5180 2500 50  0001 C CNN
+F 3 "~" H 5250 2500 50  0001 C CNN
+	1    5250 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J5
+U 1 1 5F7B8CB0
+P 5800 2500
+F 0 "J5" H 5880 2542 50  0000 L CNN
+F 1 "12V out" H 5880 2451 50  0000 L CNN
+F 2 "Private:M5_7461383" H 5800 2500 50  0001 C CNN
+F 3 "~" H 5800 2500 50  0001 C CNN
+	1    5800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2500 5600 2500
+$Comp
+L Device:Fuse F1
+U 1 1 5F7B98FA
+P 4750 2500
+F 0 "F1" V 4800 2650 50  0000 C CNN
+F 1 "Fuse" V 4750 2500 50  0000 C CNN
+F 2 "fuses:ATO_Fuseholder_3522-2" V 4680 2500 50  0001 C CNN
+F 3 "~" H 4750 2500 50  0001 C CNN
+	1    4750 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J1
+U 1 1 5F7B9901
+P 4200 2500
+F 0 "J1" H 4280 2542 50  0000 L CNN
+F 1 "12V out" H 4280 2451 50  0000 L CNN
+F 2 "Private:M5_7461383" H 4200 2500 50  0001 C CNN
+F 3 "~" H 4200 2500 50  0001 C CNN
+	1    4200 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2500 4400 2500
+$Comp
+L Device:Fuse F2
+U 1 1 5F7BA0E7
+P 4750 3000
+F 0 "F2" V 4800 3150 50  0000 C CNN
+F 1 "Fuse" V 4750 3000 50  0000 C CNN
+F 2 "fuses:ATO_Fuseholder_3522-2" V 4680 3000 50  0001 C CNN
+F 3 "~" H 4750 3000 50  0001 C CNN
+	1    4750 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J2
+U 1 1 5F7BA0EE
+P 4200 3000
+F 0 "J2" H 4280 3042 50  0000 L CNN
+F 1 "12V out" H 4280 2951 50  0000 L CNN
+F 2 "Private:M5_7461383" H 4200 3000 50  0001 C CNN
+F 3 "~" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3000 4400 3000
+Wire Wire Line
+	4900 3000 5000 3000
+$Comp
+L Device:Fuse F3
+U 1 1 5F7BA95E
+P 4750 3500
+F 0 "F3" V 4800 3650 50  0000 C CNN
+F 1 "Fuse" V 4750 3500 50  0000 C CNN
+F 2 "fuses:ATO_Fuseholder_3522-2" V 4680 3500 50  0001 C CNN
+F 3 "~" H 4750 3500 50  0001 C CNN
+	1    4750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J3
+U 1 1 5F7BA965
+P 4200 3500
+F 0 "J3" H 4280 3542 50  0000 L CNN
+F 1 "12V out" H 4280 3451 50  0000 L CNN
+F 2 "Private:M5_7461383" H 4200 3500 50  0001 C CNN
+F 3 "~" H 4200 3500 50  0001 C CNN
+	1    4200 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3500 4400 3500
+Wire Wire Line
+	4900 3500 5000 3500
+Wire Wire Line
+	4900 2500 5000 2500
+Wire Wire Line
+	5000 3800 5000 3500
+Connection ~ 5000 3500
+Wire Wire Line
+	5000 3500 5100 3500
+Wire Wire Line
+	5000 3000 5000 3500
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 5100 3000
+Wire Wire Line
+	5000 3000 5000 2500
+Connection ~ 5000 2500
+Wire Wire Line
+	5000 2500 5100 2500
+Wire Wire Line
+	5000 2350 5000 2500
+Text Label 4450 2500 1    50   ~ 0
+out_1
+Text Label 4450 3000 1    50   ~ 0
+out_2
+Text Label 4450 3500 1    50   ~ 0
+out_3
+Text Label 5500 2500 1    50   ~ 0
+out_4
+Text Label 5500 3000 1    50   ~ 0
+out_5
+Text Label 5500 3500 1    50   ~ 0
+out_6
+$EndSCHEMATC

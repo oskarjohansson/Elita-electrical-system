@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Highside-powerdistribution)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprint_libraries/Highside-powerdistribution.pretty)(options "")(descr "")(disabled))
+  (lib (name Private)(type KiCad)(uri ${PRIVATE_LIB}/footprints/connectors.pretty)(options "")(descr ""))
+)

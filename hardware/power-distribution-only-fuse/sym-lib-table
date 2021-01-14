@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Highside-powerdistribution)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbol_libraries/Highside-powerdistribution.lib)(options "")(descr ""))
+)
