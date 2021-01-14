@@ -446,47 +446,10 @@ Connection ~ 5900 2700
 Wire Wire Line
 	5900 2700 5550 2700
 NoConn ~ 7200 2500
-$Comp
-L Connector:Screw_Terminal_01x06 J38
-U 1 1 5F269231
-P 8250 1300
-F 0 "J38" H 8330 1292 50  0000 L CNN
-F 1 "CTRL" H 8330 1201 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal" H 8250 1300 50  0001 C CNN
-F 3 "~" H 8250 1300 50  0001 C CNN
-	1    8250 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 1100 8050 1100
 Text GLabel 7950 1100 0    50   Input ~ 0
 12V_in
-Text GLabel 7950 1300 0    50   Input ~ 0
-12V_in
-Wire Wire Line
-	7550 1600 8050 1600
-Wire Wire Line
-	7950 1500 8050 1500
-Wire Wire Line
-	8050 1300 7950 1300
-Wire Wire Line
-	7550 1600 7550 1400
-Wire Wire Line
-	7550 1400 8050 1400
-Wire Wire Line
-	7550 1600 7550 1650
-Connection ~ 7550 1600
-$Comp
-L power:GND #PWR0100
-U 1 1 5F26DF10
-P 7550 1650
-F 0 "#PWR0100" H 7550 1400 50  0001 C CNN
-F 1 "GND" H 7555 1477 50  0000 C CNN
-F 2 "" H 7550 1650 50  0001 C CNN
-F 3 "" H 7550 1650 50  0001 C CNN
-	1    7550 1650
-	1    0    0    -1  
-$EndComp
 Text Notes 5150 3600 0    50   ~ 0
 12.00 V - 434 Ohm\n11.75 V - 444 Ohm\n11.50 V - 454 Ohm\n11.25 V - 465 Ohm
 $Comp
@@ -589,14 +552,16 @@ F 3 "~" H 10400 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0101
-U 1 1 600B037F
-P 7950 1500
-F 0 "#PWR0101" H 7950 1350 50  0001 C CNN
-F 1 "+12V" V 7965 1628 50  0000 L CNN
-F 2 "" H 7950 1500 50  0001 C CNN
-F 3 "" H 7950 1500 50  0001 C CNN
-	1    7950 1500
-	0    -1   -1   0   
+L Connector:Screw_Terminal_01x02 SWITCH_A?
+U 1 1 5FDC7140
+P 8250 1100
+AR Path="/5FDBC42A/5FDC7140" Ref="SWITCH_A?"  Part="1" 
+AR Path="/600A69B6/5FDC7140" Ref="SWITCH_A5"  Part="1" 
+F 0 "SWITCH_A5" H 8330 1092 50  0000 L CNN
+F 1 "ON/OFF" H 8350 1000 50  0000 L CNN
+F 2 "connectors:TerminalBlock_02_P5.00mm" H 8250 1100 50  0001 C CNN
+F 3 "~" H 8250 1100 50  0001 C CNN
+	1    8250 1100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
