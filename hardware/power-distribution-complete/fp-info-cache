@@ -1,4 +1,4 @@
-18694119684012475
+18695731277726119
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82178,6 +82178,13 @@ Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b790
 RC Connector XT30
 0
 4
+2
+diode
+SMF-DO-219AB
+
+
+0
+2
 2
 diode
 SlimSMA_DO-221AC-2
