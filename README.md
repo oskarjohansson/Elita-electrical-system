@@ -7,15 +7,15 @@ This project is to refine the electrical system on the sailboat *Elita*.
 
 > A short background of the project. 
 
-A newly bought sailboat, *Elita*, has a relative good electrical system, but with poorly documentation. Since one of the complex part of a boat is the electrical system, the need of a reliable and easy system is important and there exists few power distribution system that is affordable. 
+*Elita* was bought 2019 and had a relative good electrical system, but with poorly documentation. Since one of the complex part of a boat is the electrical system, the need of a reliable and easy system is important and there exists few power distribution system that is affordable. Then practical problems like have to wire everything through a panel to switch on and off seems quite old-fashioned.  
 
 ## Goal
 
-> The goal of the project is described here. 
+> The goal of the project is 
 
 The aim for this project is to simplify the wiring and make it possible for non-electrical-engineer to troubleshoot the system, like my brothers. 
 
-The project will also aim to make it easier to do maintenance, like having a connector to all devices to make it easy to just unplug it without havig to remove any cable. 
+The project will also aim to make it easier to do maintenance, like having a connector to all devices to make it easy to just unplug it without having to remove any cable. 
 
 The project will also target one of the issues of the electrical system on a boat, the wire length. Since the voltage is 12 V, the voltage drop will affect the efficiency a lot when the wires become long. Together with that you want a control panel that is easily accessible the wiring become both long and complex. 
 
@@ -40,7 +40,8 @@ Elita-electrical-system
 │   ├── mount-panel           # A panel to mount the power distribution boards on.
 │   ├── mppt-solar-charger    # A new controller to be used instead of the PWM controller.
 │   ├── power-connector       # A simple power connector with M5 connectors. 
-│   ├── power-distribution    # Distribute power through mosfets and switches.
+│   ├── power-distribution    			# Distribute power through mosfets and switches.
+│   ├── power-distribution-complete		# Distribute all power through mosfets and switches.
 │   ├── powersplitter         # In-line to split up the power-line.
 │   ├── schematic             # All electrical schematics.
 │   └── shorepower            # Schematic over how the shorepower should be connected according to complient ISO.
@@ -57,7 +58,7 @@ Elita-electrical-system
 
 > The requirements of the system. 
 
-- Follow ISO for such system, here ISO-10133 and ISO-13297
+- Follow ISO-standard, here ISO-10133 and ISO-13297
 - Easy to use
 - Lowest voltage drop possible
 - No heat issue
@@ -120,7 +121,7 @@ Elita-electrical-system
 | Voltage meter     |                   | No          | Should always be on                |
 | Switched light    | 5x5 W + 15 W      | No          | Bedside, toilet and kitchen        |
 | Heater            | 40 W              | No          | Has is own control panel           |
-| Solarpanel        | 50 W              | No          | Output from controller to battery. |
+| Solar panel       | 50 W              | No          | Output from controller to battery. |
 
 
 
