@@ -615,4 +615,6 @@ Wire Wire Line
 Connection ~ 10400 3700
 Wire Wire Line
 	7200 2400 7550 2400
+Text Notes 5150 3800 0    50   ~ 0
+8.2k and 360 gives 11.9 V\n10k and 470 gives 11.1 V
 $EndSCHEMATC
